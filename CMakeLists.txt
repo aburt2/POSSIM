@@ -48,17 +48,17 @@ configure_file(
 ######################################################################
 # Include BOOST
 
-find_package(Boost COMPONENTS system filesystem REQUIRED)
+#find_package(Boost COMPONENTS system filesystem REQUIRED)
 
 # If the above doesn't work on your system (say due to unconventional 
 # install location), then uncomment the lines below, substituting in 
 # your own boost location.
 #
-# set(BOOST_ROOT "/home/username/Boost/boost_1_53_0")
-# set(BOOST_LIBRARYDIR "/home/username/Boost/boost_1_53_0/bin/lib")
-# set(Boost_USE_STATIC_LIBS ON)
-# set(Boost_DEBUG ON)
-# find_package(Boost COMPONENTS system filesystem REQUIRED)
+set(BOOST_ROOT "/home/albert/Documents/boost_1_74_0")
+set(BOOST_LIBRARYDIR "/home/albert/Documents/boost_1_74_0/bin/lib")
+set(Boost_USE_STATIC_LIBS ON)
+set(Boost_DEBUG ON)
+find_package(Boost COMPONENTS system filesystem REQUIRED)
 
 
 ######################################################################
@@ -68,20 +68,20 @@ find_package(Boost COMPONENTS system filesystem REQUIRED)
 # enter the path to your own installation of matlab manually
 
 # Linux example
-# SET(MATLAB_ROOT "/usr/local/MATLAB/R2014a")
-# SET(MATLAB_LIBRARIES_DIR "${MATLAB_ROOT}/bin/glnx86")
-# SET(MATLAB_INCLUDE_DIR   "${MATLAB_ROOT}/extern/include")
-# find_library(MATLAB_MEX_LIBRARY mex ${MATLAB_LIBRARIES_DIR})
-# find_library(MATLAB_MX_LIBRARY  mx  ${MATLAB_LIBRARIES_DIR})
-# find_library(MATLAB_ENG_LIBRARY eng ${MATLAB_LIBRARIES_DIR})
+SET(MATLAB_ROOT "/usr/local/MATLAB/R2020b")
+SET(MATLAB_LIBRARIES_DIR "${MATLAB_ROOT}/bin/glnxa64")
+SET(MATLAB_INCLUDE_DIR   "${MATLAB_ROOT}/extern/include")
+find_library(MATLAB_MEX_LIBRARY mex ${MATLAB_LIBRARIES_DIR})
+find_library(MATLAB_MX_LIBRARY  mx  ${MATLAB_LIBRARIES_DIR})
+find_library(MATLAB_ENG_LIBRARY eng ${MATLAB_LIBRARIES_DIR})
   
 # Windows example
-SET(MATLAB_ROOT "C:/Program Files/MATLAB/R2014a")
-SET(MATLAB_LIBRARIES_DIR "${MATLAB_ROOT}/extern/lib/win32/microsoft")
-SET(MATLAB_INCLUDE_DIR   "${MATLAB_ROOT}/extern/include")
-find_library(MATLAB_MEX_LIBRARY libmex ${MATLAB_LIBRARIES_DIR})
-find_library(MATLAB_MX_LIBRARY  libmx  ${MATLAB_LIBRARIES_DIR})
-find_library(MATLAB_ENG_LIBRARY libeng ${MATLAB_LIBRARIES_DIR})
+# SET(MATLAB_ROOT "C:/Program Files/MATLAB/R2014a")
+# SET(MATLAB_LIBRARIES_DIR "${MATLAB_ROOT}/extern/lib/win32/microsoft")
+# SET(MATLAB_INCLUDE_DIR   "${MATLAB_ROOT}/extern/include")
+# find_library(MATLAB_MEX_LIBRARY libmex ${MATLAB_LIBRARIES_DIR})
+# find_library(MATLAB_MX_LIBRARY  libmx  ${MATLAB_LIBRARIES_DIR})
+# find_library(MATLAB_ENG_LIBRARY libeng ${MATLAB_LIBRARIES_DIR})
   
 # Mac example
 # SET(MATLAB_ROOT "/Applications/MATLAB_R2014a.app/")

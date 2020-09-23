@@ -48,10 +48,10 @@ function plotCostOfCharging(logdir, simInterval)
     xlabel('Time of Day');
     ylabel('Cost of charging all vehicles ($)');
     
-    legend('Interval cost', 'Cumulative cost', 2);
+    legend('Interval cost', 'Cumulative cost', 'Location','eastoutside');
   
     save2pdf([logdir 'results_cost.pdf']);
     
-    TotalCostOfCharging = CumulativeCost(numData)
+    TotalCostOfCharging = CumulativeCost(numData);
 end
 

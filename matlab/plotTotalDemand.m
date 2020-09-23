@@ -20,7 +20,7 @@ function plotTotalDemand(logdir, simInterval)
                'EdgeColor','k',...
                'LineWidth',1)
            
-    legend('EV Demand', 'Household Demand', 2);
+    legend('EV Demand', 'Household Demand','Location','eastoutside');
     
     setAxes(gca, numData, simInterval);
    
