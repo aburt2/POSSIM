@@ -1,5 +1,5 @@
 phaseNames = {'Phase A', 'Phase B', 'Phase C', 'Neutral'};
-modelName = 'ExampleModel/';
+modelName = 'CBRModel/';
 blockRMS = 'RMS (discrete)';
 blockFourier = 'Discrete Fourier';
 numHouses = size(householdNames, 1);

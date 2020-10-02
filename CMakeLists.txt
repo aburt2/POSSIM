@@ -54,8 +54,8 @@ configure_file(
 # install location), then uncomment the lines below, substituting in 
 # your own boost location.
 #
-set(BOOST_ROOT "/home/albert/Documents/boost_1_74_0")
-set(BOOST_LIBRARYDIR "/home/albert/Documents/boost_1_74_0/bin/lib")
+set(BOOST_ROOT "/home/albert/boost_1_74_0")
+set(BOOST_LIBRARYDIR "/home/albert/boost_1_74_0/stage/lib")
 set(Boost_USE_STATIC_LIBS ON)
 set(Boost_DEBUG ON)
 find_package(Boost COMPONENTS system filesystem REQUIRED)

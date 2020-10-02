@@ -1,5 +1,5 @@
 function setloads(filename)
-
+display(filename)
 allData = importdata(filename);
 names = allData.textdata;
 loads = allData.data;

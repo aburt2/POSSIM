@@ -1,0 +1,3337 @@
+Library {
+  Name			  "CBRModel_lib"
+  Version		  10.2
+  SavedCharacterEncoding  "UTF-8"
+  ModelUUID		  "b28b79fe-cccc-4f7a-a2fc-b91946a6c3d6"
+  LogicAnalyzerPlugin	  "on"
+  DiagnosticSuppressor	  "on"
+  AnimationPlugin	  "on"
+  WebScopes_FoundationPlugin "on"
+  SLCCPlugin		  "on"
+  slcheck_filter_plugin	  "on"
+  NotesPlugin		  "on"
+  RequirementInfo	  "{}  %GIDa_6317c1c3_1285_46a1_a401_c249d430af69"
+  LibraryType		  "BlockLibrary"
+  EnableAccessToBaseWorkspace on
+  ScopeRefreshTime	  0.035000
+  OverrideScopeRefreshTime on
+  DisableAllScopes	  off
+  FPTRunName		  "Run 1"
+  MaxMDLFileLineLength	  120
+  LastSavedArchitecture	  "glnxa64"
+  Object {
+    $PropName		    "BdWindowsInfo"
+    $ObjectID		    1
+    $ClassName		    "Simulink.BDWindowsInfo"
+    Object {
+      $PropName		      "WindowsInfo"
+      $ObjectID		      2
+      $ClassName	      "Simulink.WindowInfo"
+      IsActive		      [1]
+      Location		      [72.0, 27.0, 2488.0, 1413.0]
+      Object {
+	$PropName		"ModelBrowserInfo"
+	$ObjectID		3
+	$ClassName		"Simulink.ModelBrowserInfo"
+	Visible			[0]
+	DockPosition		"Left"
+	Width			[50]
+	Height			[50]
+	Filter			[9]
+	Minimized		"Unset"
+      }
+      Object {
+	$PropName		"ExplorerBarInfo"
+	$ObjectID		4
+	$ClassName		"Simulink.ExplorerBarInfo"
+	Visible			[1]
+      }
+      Array {
+	Type			"Simulink.EditorInfo"
+	Dimension		8
+	Object {
+	  $ObjectID		  5
+	  IsActive		  [1]
+	  IsTabbed		  [1]
+	  ViewObjType		  "SimulinkTopLevel"
+	  LoadSaveID		  "0"
+	  Extents		  [2450.0, 1172.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [23.445703340456248, -74.589754841400861]
+	  SceneRectInView	  [23.445703340456248, -74.589754841400861, 1225.0, 586.0]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "861"
+	  Extents		  [2450.0, 1172.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [184.33677878947532, -163.38095238095264]
+	  SceneRectInView	  [184.33677878947532, -163.38095238095264, 1960.0, 937.6]
+	}
+	Object {
+	  $ObjectID		  7
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "679"
+	  Extents		  [1206.0, 1172.0]
+	  ZoomFactor		  [1.9847586790855207]
+	  Offset		  [-1.8432167235491768, -143.67662116040958]
+	  SceneRectInView	  [-1.8432167235491768, -143.67662116040958, 607.63054607508536, 590.5]
+	}
+	Object {
+	  $ObjectID		  8
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "758"
+	  Extents		  [1206.0, 1172.0]
+	  ZoomFactor		  [1.2281059063136457]
+	  Offset		  [-205.8, -368.95754560530679]
+	  SceneRectInView	  [-205.8, -368.95754560530679, 982.0, 954.31509121061356]
+	}
+	Object {
+	  $ObjectID		  9
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "870"
+	  Extents		  [1206.0, 1172.0]
+	  ZoomFactor		  [2.5]
+	  Offset		  [43.800000000000011, -126.4]
+	  SceneRectInView	  [43.800000000000011, -126.4, 482.4, 468.8]
+	}
+	Object {
+	  $ObjectID		  10
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "839"
+	  Extents		  [1206.0, 1172.0]
+	  ZoomFactor		  [1.5]
+	  Offset		  [-255.5, -184.0]
+	  SceneRectInView	  [-255.5, -184.0, 804.0, 781.33333333333337]
+	}
+	Object {
+	  $ObjectID		  11
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "658"
+	  Extents		  [2455.0, 1181.0]
+	  ZoomFactor		  [3.0]
+	  Offset		  [-71.633333333333383, -83.833333333333258]
+	  SceneRectInView	  [-71.633333333333383, -83.833333333333258, 818.33333333333337, 393.66666666666669]
+	}
+	Object {
+	  $ObjectID		  12
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "768"
+	  Extents		  [2455.0, 1181.0]
+	  ZoomFactor		  [2.0]
+	  Offset		  [-133.50000000000023, -95.2999999999999]
+	  SceneRectInView	  [-133.50000000000023, -95.2999999999999, 1227.5, 590.5]
+	}
+	PropName		"EditorsInfo"
+      }
+      Array {
+	Type			"Simulink.DockComponentInfo"
+	Dimension		2
+	Object {
+	  $ObjectID		  13
+	  Type			  "GLUE2:PropertyInspector"
+	  ID			  "Property Inspector"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  ""
+	  Floating		  [0]
+	  DockPosition		  "Right"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  14
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	PropName		"DockComponentsInfo"
+      }
+      WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAABPsAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
+      "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABiAP////sAAABgAFMAaQBtAHUAb"
+      "ABpAG4AawA6AEUAZABpAHQAbwByADoAUgBlAGYAZQByAGUAbgBjAGUAZABGAGkAbABlAHMALwBSAGUAZgBlAHIAZQBuAGMAZQBkACAARgBpAGwAZ"
+      "QBzAAAAAAD/////AAAAiQD///8AAAABAAAAAAAAAAD8AgAAAAH7AAAAVABHAEwAVQBFADIAOgBQAHIAbwBwAGUAcgB0AHkASQBuAHMAcABlAGMAd"
+      "ABvAHIALwBQAHIAbwBwAGUAcgB0AHkAIABJAG4AcwBwAGUAYwB0AG8AcgAAAAAA/////wAAAawA////AAAJuAAABNEAAAABAAAAAgAAAAEAAAAC/"
+      "AAAAAA="
+      Array {
+	Type			"Cell"
+	Dimension		0
+	PropName		"PersistedApps"
+      }
+      WindowUuid	      "4a4a7aac-a930-40dc-8386-f7c185ab1461"
+    }
+    BDUuid		    "e7036c55-5393-44d5-86b8-63dc429c59fe"
+  }
+  HideAutomaticNames	  on
+  SequenceViewerTimePrecision 3
+  SequenceViewerHistory	  1000
+  Created		  "Mon Jul 02 14:41:24 2012"
+  Creator		  "jde1"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "albert"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Fri Oct 02 19:16:47 2020"
+  RTWModifiedTimeStamp	  523566932
+  ModelVersionFormat	  "%<AutoIncrement:19.3>"
+  SampleTimeColors	  off
+  SampleTimeAnnotations	  off
+  LibraryLinkDisplay	  "disabled"
+  WideLines		  off
+  ShowLineDimensions	  off
+  ShowPortDataTypes	  off
+  ShowAllPropagatedSignalLabels	off
+  PortDataTypeDisplayFormat "AliasTypeOnly"
+  ShowEditTimeErrors	  on
+  ShowEditTimeWarnings	  on
+  ShowEditTimeAdvisorChecks off
+  ShowPortUnits		  off
+  ShowDesignRanges	  off
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ShowTestPointIcons	  on
+  ShowSignalResolutionIcons on
+  ShowViewerIcons	  on
+  VariantCondition	  off
+  ShowLinearizationAnnotations on
+  ShowVisualizeInsertedRTB on
+  ShowMarkup		  on
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  BlockVariantConditionDataTip off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  FunctionConnectors	  off
+  BrowserLookUnderMasks	  off
+  MultiThreadCoSim	  "on"
+  SimulationMode	  "normal"
+  PauseTimes		  "5"
+  NumberOfSteps		  1
+  SnapshotBufferSize	  10
+  SnapshotInterval	  10
+  NumberOfLastSnapshots	  0
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  ExtModeBatchMode	  off
+  ExtModeEnableFloating	  on
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigSignalOutputPortIndex 0
+  ExtModeTrigDuration	  1000
+  ExtModeTrigDurationFloating "auto"
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  VariantFading		  on
+  ShowModelReferenceBlockVersion off
+  ShowModelReferenceBlockIO off
+  OrderedModelArguments	  on
+  Array {
+    Type		    "Handle"
+    Dimension		    1
+    Simulink.ConfigSet {
+      $ObjectID		      15
+      Version		      "20.1.0"
+      DisabledProps	      []
+      Description	      ""
+      Array {
+	Type			"Handle"
+	Dimension		9
+	Simulink.SolverCC {
+	  $ObjectID		  16
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  StartTime		  "0.0"
+	  StopTime		  "10.0"
+	  AbsTol		  "auto"
+	  AutoScaleAbsTol	  on
+	  FixedStep		  "auto"
+	  InitialStep		  "auto"
+	  MaxOrder		  5
+	  ZcThreshold		  "auto"
+	  ConsecutiveZCsStepRelTol "10*128*eps"
+	  MaxConsecutiveZCs	  "1000"
+	  ExtrapolationOrder	  4
+	  NumberNewtonIterations  1
+	  MaxStep		  "auto"
+	  MinStep		  "auto"
+	  MaxConsecutiveMinStep	  "1"
+	  RelTol		  "1e-3"
+	  EnableMultiTasking	  on
+	  ConcurrentTasks	  off
+	  SolverName		  "ode45"
+	  SolverJacobianMethodControl "auto"
+	  ShapePreserveControl	  "DisableAll"
+	  ZeroCrossControl	  "UseLocalSettings"
+	  ZeroCrossAlgorithm	  "Nonadaptive"
+	  AlgebraicLoopSolver	  "TrustRegion"
+	  SolverInfoToggleStatus  off
+	  IsAutoAppliedInSIP	  off
+	  SolverResetMethod	  "Fast"
+	  PositivePriorityOrder	  off
+	  AutoInsertRateTranBlk	  off
+	  SampleTimeConstraint	  "Unconstrained"
+	  InsertRTBMode		  "Whenever possible"
+	  SampleTimeProperty	  []
+	  DecoupledContinuousIntegration off
+	  MinimalZcImpactIntegration off
+	  ODENIntegrationMethod	  "ode3"
+	}
+	Simulink.DataIOCC {
+	  $ObjectID		  17
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  Decimation		  "1"
+	  ExternalInput		  "[t, u]"
+	  FinalStateName	  "xFinal"
+	  InitialState		  "xInitial"
+	  LimitDataPoints	  on
+	  MaxDataPoints		  "1000"
+	  LoadExternalInput	  off
+	  LoadInitialState	  off
+	  SaveFinalState	  off
+	  SaveOperatingPoint	  off
+	  SaveFormat		  "Array"
+	  SignalLoggingSaveFormat "ModelDataLogs"
+	  SaveOutput		  on
+	  SaveState		  off
+	  SignalLogging		  on
+	  DSMLogging		  on
+	  InspectSignalLogs	  off
+	  VisualizeSimOutput	  on
+	  StreamToWorkspace	  off
+	  StreamVariableName	  "streamout"
+	  SaveTime		  on
+	  ReturnWorkspaceOutputs  off
+	  StateSaveName		  "xout"
+	  TimeSaveName		  "tout"
+	  OutputSaveName	  "yout"
+	  SignalLoggingName	  "logsout"
+	  DSMLoggingName	  "dsmout"
+	  OutputOption		  "RefineOutputTimes"
+	  OutputTimes		  "[]"
+	  ReturnWorkspaceOutputsName "out"
+	  Refine		  "1"
+	  LoggingToFile		  off
+	  DatasetSignalFormat	  "timeseries"
+	  LoggingFileName	  "out.mat"
+	  LoggingIntervals	  "[-inf, inf]"
+	}
+	Simulink.OptimizationCC {
+	  $ObjectID		  18
+	  Version		  "20.1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    9
+	    Cell		    "BooleansAsBitfields"
+	    Cell		    "PassReuseOutputArgsAs"
+	    Cell		    "PassReuseOutputArgsThreshold"
+	    Cell		    "ZeroExternalMemoryAtStartup"
+	    Cell		    "ZeroInternalMemoryAtStartup"
+	    Cell		    "OptimizeModelRefInitCode"
+	    Cell		    "NoFixptDivByZeroProtection"
+	    Cell		    "UseSpecifiedMinMax"
+	    Cell		    "EfficientTunableParamExpr"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  BlockReduction	  on
+	  BooleanDataType	  on
+	  ConditionallyExecuteInputs on
+	  DefaultParameterBehavior "Tunable"
+	  UseDivisionForNetSlopeComputation "off"
+	  GainParamInheritBuiltInType off
+	  UseFloatMulNetSlope	  off
+	  DefaultUnderspecifiedDataType	"double"
+	  UseSpecifiedMinMax	  off
+	  InlineInvariantSignals  off
+	  OptimizeBlockIOStorage  on
+	  BufferReuse		  on
+	  EnhancedBackFolding	  off
+	  CachingGlobalReferences off
+	  GlobalBufferReuse	  on
+	  StrengthReduction	  off
+	  AdvancedOptControl	  ""
+	  ExpressionFolding	  on
+	  BooleansAsBitfields	  off
+	  BitfieldContainerType	  "uint_T"
+	  BitwiseOrLogicalOp	  "Same as modeled"
+	  EnableMemcpy		  on
+	  MemcpyThreshold	  64
+	  PassReuseOutputArgsAs	  "Structure reference"
+	  PassReuseOutputArgsThreshold 12
+	  ExpressionDepthLimit	  2147483647
+	  LocalBlockOutputs	  on
+	  RollThreshold		  5
+	  StateBitsets		  off
+	  DataBitsets		  off
+	  ActiveStateOutputEnumStorageType "Native Integer"
+	  ZeroExternalMemoryAtStartup on
+	  ZeroInternalMemoryAtStartup on
+	  InitFltsAndDblsToZero	  off
+	  NoFixptDivByZeroProtection off
+	  EfficientFloat2IntCast  off
+	  EfficientMapNaN2IntZero on
+	  LifeSpan		  "inf"
+	  MaxStackSize		  "Inherit from target"
+	  BufferReusableBoundary  on
+	  SimCompilerOptimization "off"
+	  AccelVerboseBuild	  off
+	  OptimizeBlockOrder	  "off"
+	  OptimizeDataStoreBuffers on
+	  BusAssignmentInplaceUpdate on
+	  DifferentSizesBufferReuse off
+	  UseRowMajorAlgorithm	  off
+	  OptimizationLevel	  "level2"
+	  OptimizationPriority	  "Balanced"
+	  OptimizationCustomize	  on
+	  LabelGuidedReuse	  off
+	  MultiThreadedLoops	  off
+	  DenormalBehavior	  "GradualUnderflow"
+	  EfficientTunableParamExpr off
+	}
+	Simulink.DebuggingCC {
+	  $ObjectID		  19
+	  Version		  "20.1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    1
+	    Cell		    "UseOnlyExistingSharedCode"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  Components		  []
+	  RTPrefix		  "error"
+	  ConsistencyChecking	  "none"
+	  ArrayBoundsChecking	  "none"
+	  SignalInfNanChecking	  "none"
+	  StringTruncationChecking "error"
+	  SignalRangeChecking	  "none"
+	  ReadBeforeWriteMsg	  "UseLocalSettings"
+	  WriteAfterWriteMsg	  "UseLocalSettings"
+	  WriteAfterReadMsg	  "UseLocalSettings"
+	  AlgebraicLoopMsg	  "warning"
+	  ArtificialAlgebraicLoopMsg "warning"
+	  SaveWithDisabledLinksMsg "warning"
+	  SaveWithParameterizedLinksMsg	"warning"
+	  CheckSSInitialOutputMsg on
+	  UnderspecifiedInitializationDetection	"Classic"
+	  MergeDetectMultiDrivingBlocksExec "none"
+	  CheckExecutionContextPreStartOutputMsg off
+	  CheckExecutionContextRuntimeOutputMsg	off
+	  SignalResolutionControl "UseLocalSettings"
+	  BlockPriorityViolationMsg "warning"
+	  MinStepSizeMsg	  "warning"
+	  TimeAdjustmentMsg	  "none"
+	  MaxConsecutiveZCsMsg	  "error"
+	  MaskedZcDiagnostic	  "warning"
+	  IgnoredZcDiagnostic	  "warning"
+	  SolverPrmCheckMsg	  "warning"
+	  InheritedTsInSrcMsg	  "warning"
+	  MultiTaskDSMMsg	  "error"
+	  MultiTaskCondExecSysMsg "error"
+	  MultiTaskRateTransMsg	  "error"
+	  SingleTaskRateTransMsg  "none"
+	  TasksWithSamePriorityMsg "warning"
+	  ExportedTasksRateTransMsg "none"
+	  SigSpecEnsureSampleTimeMsg "warning"
+	  CheckMatrixSingularityMsg "none"
+	  IntegerOverflowMsg	  "warning"
+	  Int32ToFloatConvMsg	  "warning"
+	  ParameterDowncastMsg	  "error"
+	  ParameterOverflowMsg	  "error"
+	  ParameterUnderflowMsg	  "none"
+	  ParameterPrecisionLossMsg "warning"
+	  ParameterTunabilityLossMsg "warning"
+	  FixptConstUnderflowMsg  "none"
+	  FixptConstOverflowMsg	  "none"
+	  FixptConstPrecisionLossMsg "none"
+	  UnderSpecifiedDataTypeMsg "none"
+	  UnnecessaryDatatypeConvMsg "none"
+	  VectorMatrixConversionMsg "none"
+	  FcnCallInpInsideContextMsg "warning"
+	  SignalLabelMismatchMsg  "none"
+	  UnconnectedInputMsg	  "warning"
+	  UnconnectedOutputMsg	  "warning"
+	  UnconnectedLineMsg	  "warning"
+	  UseOnlyExistingSharedCode "error"
+	  SFcnCompatibilityMsg	  "none"
+	  FrameProcessingCompatibilityMsg "error"
+	  UniqueDataStoreMsg	  "none"
+	  BusObjectLabelMismatch  "warning"
+	  RootOutportRequireBusObject "warning"
+	  AssertControl		  "UseLocalSettings"
+	  AllowSymbolicDim	  on
+	  RowMajorDimensionSupport off
+	  ModelReferenceIOMsg	  "none"
+	  ModelReferenceMultiInstanceNormalModeStructChecksumCheck "error"
+	  ModelReferenceVersionMismatchMessage "none"
+	  ModelReferenceIOMismatchMessage "none"
+	  UnknownTsInhSupMsg	  "warning"
+	  ModelReferenceDataLoggingMessage "warning"
+	  ModelReferenceNoExplicitFinalValueMsg	"none"
+	  ModelReferenceSymbolNameMessage "warning"
+	  ModelReferenceExtraNoncontSigs "error"
+	  StateNameClashWarn	  "warning"
+	  OperatingPointInterfaceChecksumMismatchMsg "warning"
+	  NonCurrentReleaseOperatingPointMsg "error"
+	  ChecksumConsistencyForSSReuse	"none"
+	  PregeneratedLibrarySubsystemCodeDiagnostic "warning"
+	  MatchCodeGenerationContextForUpdateDiagram "none"
+	  InitInArrayFormatMsg	  "warning"
+	  StrictBusMsg		  "ErrorLevel1"
+	  BusNameAdapt		  "WarnAndRepair"
+	  NonBusSignalsTreatedAsBus "none"
+	  SymbolicDimMinMaxWarning "warning"
+	  LossOfSymbolicDimsSimulationWarning "warning"
+	  LossOfSymbolicDimsCodeGenerationWarning "error"
+	  SymbolicDimsDataTypeCodeGenerationDiagnostic "error"
+	  BlockIODiagnostic	  "none"
+	  SFUnusedDataAndEventsDiag "warning"
+	  SFUnexpectedBacktrackingDiag "warning"
+	  SFInvalidInputDataAccessInChartInitDiag "warning"
+	  SFNoUnconditionalDefaultTransitionDiag "warning"
+	  SFTransitionOutsideNaturalParentDiag "warning"
+	  SFUnreachableExecutionPathDiag "warning"
+	  SFUndirectedBroadcastEventsDiag "warning"
+	  SFTransitionActionBeforeConditionDiag	"warning"
+	  SFOutputUsedAsStateInMooreChartDiag "error"
+	  SFTemporalDelaySmallerThanSampleTimeDiag "warning"
+	  SFSelfTransitionDiag	  "warning"
+	  SFExecutionAtInitializationDiag "none"
+	  SFMachineParentedDataDiag "warning"
+	  IntegerSaturationMsg	  "warning"
+	  AllowedUnitSystems	  "all"
+	  UnitsInconsistencyMsg	  "warning"
+	  AllowAutomaticUnitConversions	on
+	  RCSCRenamedMsg	  "warning"
+	  RCSCObservableMsg	  "warning"
+	  ForceCombineOutputUpdateInSim	off
+	  UnitDatabase		  ""
+	  UnderSpecifiedDimensionMsg "none"
+	  DebugExecutionForFMUViaOutOfProcess off
+	  ArithmeticOperatorsInVariantConditions "warning"
+	  VariantConditionMismatch "none"
+	}
+	Simulink.HardwareCC {
+	  $ObjectID		  20
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  ProdBitPerChar	  8
+	  ProdBitPerShort	  16
+	  ProdBitPerInt		  32
+	  ProdBitPerLong	  32
+	  ProdBitPerLongLong	  64
+	  ProdBitPerFloat	  32
+	  ProdBitPerDouble	  64
+	  ProdBitPerPointer	  32
+	  ProdBitPerSizeT	  32
+	  ProdBitPerPtrDiffT	  32
+	  ProdLargestAtomicInteger "Char"
+	  ProdLargestAtomicFloat  "None"
+	  ProdIntDivRoundTo	  "Undefined"
+	  ProdEndianess		  "Unspecified"
+	  ProdWordSize		  32
+	  ProdShiftRightIntArith  on
+	  ProdLongLongMode	  off
+	  ProdHWDeviceType	  "32-bit Generic"
+	  TargetBitPerChar	  8
+	  TargetBitPerShort	  16
+	  TargetBitPerInt	  32
+	  TargetBitPerLong	  32
+	  TargetBitPerLongLong	  64
+	  TargetBitPerFloat	  32
+	  TargetBitPerDouble	  64
+	  TargetBitPerPointer	  32
+	  TargetBitPerSizeT	  32
+	  TargetBitPerPtrDiffT	  32
+	  TargetLargestAtomicInteger "Char"
+	  TargetLargestAtomicFloat "None"
+	  TargetShiftRightIntArith on
+	  TargetLongLongMode	  off
+	  TargetIntDivRoundTo	  "Undefined"
+	  TargetEndianess	  "Unspecified"
+	  TargetWordSize	  32
+	  TargetPreprocMaxBitsSint 32
+	  TargetPreprocMaxBitsUint 32
+	  TargetHWDeviceType	  "Specified"
+	  TargetUnknown		  off
+	  ProdEqTarget		  on
+	  UseEmbeddedCoderFeatures on
+	  UseSimulinkCoderFeatures on
+	  HardwareBoardFeatureSet "EmbeddedCoderHSP"
+	}
+	Simulink.ModelReferenceCC {
+	  $ObjectID		  21
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  UpdateModelReferenceTargets "IfOutOfDateOrStructuralChange"
+	  EnableRefExpFcnMdlSchedulingChecks on
+	  CheckModelReferenceTargetMessage "error"
+	  EnableParallelModelReferenceBuilds off
+	  ParallelModelReferenceErrorOnInvalidPool on
+	  ParallelModelReferenceMATLABWorkerInit "None"
+	  ModelReferenceNumInstancesAllowed "Multi"
+	  PropagateVarSize	  "Infer from blocks in model"
+	  ModelDependencies	  ""
+	  ModelReferencePassRootInputsByReference on
+	  ModelReferenceMinAlgLoopOccurrences off
+	  PropagateSignalLabelsOutOfModel off
+	  SupportModelReferenceSimTargetCustomCode off
+	}
+	Simulink.SFSimCC {
+	  $ObjectID		  22
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  ""
+	  Components		  []
+	  SimCustomSourceCode	  ""
+	  SimCustomHeaderCode	  ""
+	  SimCustomInitializer	  ""
+	  SimCustomTerminator	  ""
+	  SimReservedNameArray	  []
+	  SimUserSources	  ""
+	  SimUserIncludeDirs	  ""
+	  SimUserLibraries	  ""
+	  SimUserDefines	  ""
+	  SimCustomCompilerFlags  ""
+	  SimCustomLinkerFlags	  ""
+	  SFSimEcho		  on
+	  SimCtrlC		  on
+	  SimIntegrity		  on
+	  SimUseLocalCustomCode	  off
+	  SimParseCustomCode	  on
+	  SimAnalyzeCustomCode	  off
+	  SimGenImportedTypeDefs  off
+	  ModelFunctionsGlobalVisibility "on"
+	  CompileTimeRecursionLimit 50
+	  EnableRuntimeRecursion  on
+	  MATLABDynamicMemAlloc	  on
+	  MATLABDynamicMemAllocThreshold 65536
+	  CustomCodeFunctionArrayLayout	[]
+	  DefaultCustomCodeFunctionArrayLayout "NotSpecified"
+	  CustomCodeUndefinedFunction "UseInterfaceOnly"
+	  CustomCodeGlobalsAsFunctionIO	off
+	  SimTargetLang		  "C"
+	  GPUAcceleration	  off
+	  SimGPUMallocThreshold	  200
+	  SimGPUStackLimitPerThread 1024
+	  SimGPUErrorChecks	  off
+	  SimGPUCustomComputeCapability	""
+	  SimGPUCompilerFlags	  ""
+	  SimDLTargetLibrary	  "mkl-dnn"
+	  SimDLAutoTuning	  on
+	}
+	Simulink.RTWCC {
+	  $BackupClass		  "Simulink.RTWCC"
+	  $ObjectID		  23
+	  Version		  "20.1.0"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    16
+	    Cell		    "IncludeHyperlinkInReport"
+	    Cell		    "GenerateTraceInfo"
+	    Cell		    "GenerateTraceReport"
+	    Cell		    "GenerateTraceReportSl"
+	    Cell		    "GenerateTraceReportSf"
+	    Cell		    "GenerateTraceReportEml"
+	    Cell		    "GenerateWebview"
+	    Cell		    "GenerateCodeMetricsReport"
+	    Cell		    "GenerateCodeReplacementReport"
+	    Cell		    "PortableWordSizes"
+	    Cell		    "GenerateMissedCodeReplacementReport"
+	    Cell		    "GenerateErtSFunction"
+	    Cell		    "CreateSILPILBlock"
+	    Cell		    "CodeExecutionProfiling"
+	    Cell		    "CodeProfilingSaveOptions"
+	    Cell		    "CodeProfilingInstrumentation"
+	    PropName		    "DisabledProps"
+	  }
+	  Description		  ""
+	  SystemTargetFile	  "grt.tlc"
+	  HardwareBoard		  "None"
+	  ShowCustomHardwareApp	  off
+	  ShowEmbeddedHardwareApp off
+	  TLCOptions		  ""
+	  GenCodeOnly		  off
+	  MakeCommand		  "make_rtw"
+	  GenerateMakefile	  on
+	  PackageGeneratedCodeAndArtifacts off
+	  PackageName		  ""
+	  TemplateMakefile	  "grt_default_tmf"
+	  PostCodeGenCommand	  ""
+	  GenerateReport	  off
+	  RTWVerbose		  on
+	  RetainRTWFile		  off
+	  RTWBuildHooks		  []
+	  ProfileTLC		  off
+	  TLCDebug		  off
+	  TLCCoverage		  off
+	  TLCAssert		  off
+	  RTWUseLocalCustomCode	  off
+	  RTWUseSimCustomCode	  off
+	  CustomSourceCode	  ""
+	  CustomHeaderCode	  ""
+	  CustomInclude		  ""
+	  CustomSource		  ""
+	  CustomLibrary		  ""
+	  CustomDefine		  ""
+	  CustomBLASCallback	  ""
+	  CustomLAPACKCallback	  ""
+	  CustomFFTCallback	  ""
+	  CustomInitializer	  ""
+	  CustomTerminator	  ""
+	  Toolchain		  "Automatically locate an installed toolchain"
+	  BuildConfiguration	  "Faster Builds"
+	  CustomToolchainOptions  []
+	  IncludeHyperlinkInReport off
+	  LaunchReport		  off
+	  PortableWordSizes	  off
+	  CreateSILPILBlock	  "None"
+	  CodeExecutionProfiling  off
+	  CodeExecutionProfileVariable "executionProfile"
+	  CodeProfilingSaveOptions "SummaryOnly"
+	  CodeProfilingInstrumentation "off"
+	  SILDebugging		  off
+	  TargetLang		  "C"
+	  GenerateGPUCode	  "None"
+	  IncludeBusHierarchyInRTWFileBlockHierarchyMap	off
+	  GenerateTraceInfo	  off
+	  GenerateTraceReport	  off
+	  GenerateTraceReportSl	  off
+	  GenerateTraceReportSf	  off
+	  GenerateTraceReportEml  off
+	  GenerateWebview	  off
+	  GenerateCodeMetricsReport off
+	  GenerateCodeReplacementReport	off
+	  GenerateMissedCodeReplacementReport off
+	  RTWCompilerOptimization "off"
+	  ObjectivePriorities	  []
+	  RTWCustomCompilerOptimizations ""
+	  CheckMdlBeforeBuild	  "Off"
+	  SharedConstantsCachingThreshold 1024
+	  GPUKernelNamePrefix	  ""
+	  GPUDeviceID		  -1
+	  GPUMallocMode		  "discrete"
+	  GPUMallocThreshold	  200
+	  GPUStackLimitPerThread  1024
+	  GPUcuBLAS		  on
+	  GPUcuSOLVER		  on
+	  GPUcuFFT		  on
+	  GPUErrorChecks	  off
+	  GPUComputeCapability	  "3.5"
+	  GPUCustomComputeCapability ""
+	  GPUCompilerFlags	  ""
+	  DLTargetLibrary	  "none"
+	  DLAutoTuning		  on
+	  DLArmComputeVersion	  "19.05"
+	  DLArmComputeArch	  "unspecified"
+	  Array {
+	    Type		    "Handle"
+	    Dimension		    2
+	    Simulink.CodeAppCC {
+	      $ObjectID		      24
+	      Version		      "20.1.0"
+	      Array {
+		Type			"Cell"
+		Dimension		28
+		Cell			"IgnoreCustomStorageClasses"
+		Cell			"IgnoreTestpoints"
+		Cell			"InsertBlockDesc"
+		Cell			"InsertPolySpaceComments"
+		Cell			"SFDataObjDesc"
+		Cell			"MATLABFcnDesc"
+		Cell			"SimulinkDataObjDesc"
+		Cell			"DefineNamingRule"
+		Cell			"SignalNamingRule"
+		Cell			"ParamNamingRule"
+		Cell			"InlinedPrmAccess"
+		Cell			"CustomSymbolStr"
+		Cell			"CustomSymbolStrGlobalVar"
+		Cell			"CustomSymbolStrType"
+		Cell			"CustomSymbolStrField"
+		Cell			"CustomSymbolStrFcn"
+		Cell			"CustomSymbolStrFcnArg"
+		Cell			"CustomSymbolStrBlkIO"
+		Cell			"CustomSymbolStrTmpVar"
+		Cell			"CustomSymbolStrMacro"
+		Cell			"ReqsInCode"
+		Cell			"BlockCommentType"
+		Cell			"InternalIdentifier"
+		Cell			"CustomSymbolStrModelFcn"
+		Cell			"CustomSymbolStrUtil"
+		Cell			"CustomSymbolStrEmxType"
+		Cell			"CustomSymbolStrEmxFcn"
+		Cell			"CustomUserTokenString"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Components	      []
+	      Comment		      ""
+	      ForceParamTrailComments off
+	      GenerateComments	      on
+	      CommentStyle	      "Auto"
+	      IgnoreCustomStorageClasses on
+	      IgnoreTestpoints	      off
+	      MaxIdLength	      31
+	      PreserveName	      off
+	      PreserveNameWithParent  off
+	      ShowEliminatedStatement off
+	      OperatorAnnotations     off
+	      SimulinkDataObjDesc     off
+	      SFDataObjDesc	      off
+	      MATLABFcnDesc	      off
+	      MangleLength	      1
+	      SharedChecksumLength    8
+	      CustomSymbolStrGlobalVar "$R$N$M"
+	      CustomSymbolStrType     "$N$R$M_T"
+	      CustomSymbolStrField    "$N$M"
+	      CustomSymbolStrFcn      "$R$N$M$F"
+	      CustomSymbolStrModelFcn "$R$N"
+	      CustomSymbolStrFcnArg   "rt$I$N$M"
+	      CustomSymbolStrBlkIO    "rtb_$N$M"
+	      CustomSymbolStrTmpVar   "$N$M"
+	      CustomSymbolStrMacro    "$R$N$M"
+	      CustomSymbolStrUtil     "$N$C"
+	      CustomSymbolStrEmxType  "emxArray_$M$N"
+	      CustomSymbolStrEmxFcn   "emx$M$N"
+	      CustomUserTokenString   ""
+	      CustomCommentsFcn	      ""
+	      DefineNamingRule	      "None"
+	      DefineNamingFcn	      ""
+	      ParamNamingRule	      "None"
+	      ParamNamingFcn	      ""
+	      SignalNamingRule	      "None"
+	      SignalNamingFcn	      ""
+	      InsertBlockDesc	      off
+	      InsertPolySpaceComments off
+	      SimulinkBlockComments   on
+	      BlockCommentType	      "BlockPathComment"
+	      StateflowObjectComments on
+	      MATLABSourceComments    off
+	      EnableCustomComments    off
+	      InternalIdentifierFile  ""
+	      InternalIdentifier      "Shortened"
+	      InlinedPrmAccess	      "Literals"
+	      ReqsInCode	      off
+	      UseSimReservedNames     off
+	      ReservedNameArray	      []
+	      EnumMemberNameClash     "error"
+	    }
+	    Simulink.GRTTargetCC {
+	      $BackupClass	      "Simulink.TargetCC"
+	      $ObjectID		      25
+	      Version		      "20.1.0"
+	      Array {
+		Type			"Cell"
+		Dimension		19
+		Cell			"GeneratePreprocessorConditionals"
+		Cell			"IncludeMdlTerminateFcn"
+		Cell			"PreserveStateflowLocalDataDimensions"
+		Cell			"SuppressErrorStatus"
+		Cell			"ERTCustomFileBanners"
+		Cell			"GenerateTestInterfaces"
+		Cell			"ModelStepFunctionPrototypeControlCompliant"
+		Cell			"CPPClassGenCompliant"
+		Cell			"PortableWordSizes"
+		Cell			"PurelyIntegerCode"
+		Cell			"SupportComplex"
+		Cell			"SupportAbsoluteTime"
+		Cell			"SupportContinuousTime"
+		Cell			"SupportNonInlinedSFcns"
+		Cell			"GenerateAllocFcn"
+		Cell			"GenerateSampleERTMain"
+		Cell			"ExistingSharedCode"
+		Cell			"RemoveDisableFunc"
+		Cell			"RemoveResetFunc"
+		PropName		"DisabledProps"
+	      }
+	      Description	      ""
+	      Components	      []
+	      TargetFcnLib	      "ansi_tfl_table_tmw.mat"
+	      TargetLibSuffix	      ""
+	      TargetPreCompLibLocation ""
+	      GenFloatMathFcnCalls    "NOT IN USE"
+	      TargetLangStandard      "C89/C90 (ANSI)"
+	      CodeReplacementLibrary  "None"
+	      UtilityFuncGeneration   "Auto"
+	      MultiwordTypeDef	      "System defined"
+	      MultiwordLength	      2048
+	      DynamicStringBufferSize 256
+	      GenerateFullHeader      on
+	      InferredTypesCompatibility off
+	      ExistingSharedCode      ""
+	      GenerateSampleERTMain   off
+	      GenerateTestInterfaces  off
+	      ModelReferenceCompliant on
+	      ParMdlRefBuildCompliant on
+	      CompOptLevelCompliant   on
+	      ConcurrentExecutionCompliant on
+	      IncludeMdlTerminateFcn  on
+	      CombineOutputUpdateFcns off
+	      CombineSignalStateStructs	off
+	      GroupInternalDataByFunction off
+	      SuppressErrorStatus     off
+	      IncludeFileDelimiter    "Auto"
+	      ERTCustomFileBanners    off
+	      SupportAbsoluteTime     on
+	      LogVarNameModifier      "rt_"
+	      MatFileLogging	      on
+	      CodeInterfacePackaging  "Nonreusable function"
+	      PurelyIntegerCode	      off
+	      SupportNonFinite	      on
+	      SupportComplex	      on
+	      SupportContinuousTime   on
+	      SupportNonInlinedSFcns  on
+	      RemoveDisableFunc	      off
+	      RemoveResetFunc	      off
+	      SupportVariableSizeSignals off
+	      ParenthesesLevel	      "Nominal"
+	      CastingMode	      "Nominal"
+	      MATLABClassNameForMDSCustomization "Simulink.SoftwareTarget.GRTCustomization"
+	      ModelStepFunctionPrototypeControlCompliant off
+	      CPPClassGenCompliant    on
+	      AutosarCompliant	      off
+	      MDXCompliant	      off
+	      GRTInterface	      on
+	      GenerateAllocFcn	      off
+	      UseToolchainInfoCompliant	on
+	      GenerateSharedConstants on
+	      CoderGroups	      []
+	      AccessMethods	      []
+	      LookupTableObjectStructAxisOrder "1,2,3,4,..."
+	      LUTObjectStructOrderExplicitValues "Size,Breakpoints,Table"
+	      LUTObjectStructOrderEvenSpacing "Size,Breakpoints,Table"
+	      ArrayLayout	      "Column-major"
+	      UnsupportedSFcnMsg      "error"
+	      ERTHeaderFileRootName   "$R$E"
+	      ERTSourceFileRootName   "$R$E"
+	      ERTDataFileRootName     "$R_data"
+	      UseMalloc		      off
+	      ExtMode		      off
+	      ExtModeStaticAlloc      off
+	      ExtModeTesting	      off
+	      ExtModeStaticAllocSize  1000000
+	      ExtModeTransport	      0
+	      ExtModeMexFile	      "ext_comm"
+	      ExtModeMexArgs	      ""
+	      ExtModeIntrfLevel	      "Level1"
+	      RTWCAPISignals	      off
+	      RTWCAPIParams	      off
+	      RTWCAPIStates	      off
+	      RTWCAPIRootIO	      off
+	      GenerateASAP2	      off
+	      MultiInstanceErrorCode  "Error"
+	    }
+	    PropName		    "Components"
+	  }
+	}
+	SlCovCC.ConfigComp {
+	  $ObjectID		  26
+	  Version		  "20.1.0"
+	  DisabledProps		  []
+	  Description		  "Simulink Coverage Configuration Component"
+	  Components		  []
+	  Name			  "Simulink Coverage"
+	  CovEnable		  off
+	  CovScope		  "EntireSystem"
+	  CovIncludeTopModel	  on
+	  RecordCoverage	  off
+	  CovPath		  "/"
+	  CovSaveName		  "covdata"
+	  CovCompData		  ""
+	  CovMetricSettings	  "dw"
+	  CovFilter		  ""
+	  CovHTMLOptions	  ""
+	  CovNameIncrementing	  off
+	  CovForceBlockReductionOff on
+	  CovEnableCumulative	  on
+	  CovSaveCumulativeToWorkspaceVar on
+	  CovSaveSingleToWorkspaceVar on
+	  CovCumulativeVarName	  "covCumulativeData"
+	  CovCumulativeReport	  off
+	  CovSaveOutputData	  on
+	  CovOutputDir		  "slcov_output/$ModelName$"
+	  CovDataFileName	  "$ModelName$_cvdata"
+	  CovReportOnPause	  on
+	  CovModelRefEnable	  "off"
+	  CovModelRefExcluded	  ""
+	  CovExternalEMLEnable	  off
+	  CovSFcnEnable		  on
+	  CovBoundaryAbsTol	  1e-05
+	  CovBoundaryRelTol	  0.01
+	  CovUseTimeInterval	  off
+	  CovStartTime		  0
+	  CovStopTime		  0
+	  CovMcdcMode		  "Masking"
+	}
+	PropName		"Components"
+      }
+      Name		      "Configuration"
+      CurrentDlgPage	      "Solver"
+      ConfigPrmDlgPosition    [ 400, 210, 1280, 840 ]
+      ExtraOptions	      ""
+    }
+    PropName		    "ConfigurationSets"
+  }
+  ExplicitPartitioning	  off
+  BlockDefaults {
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NameLocation	    "bottom"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+    HideAutomaticName	    on
+    BlockRotation	    0
+    BlockMirror		    off
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    MarkupType		    "model"
+    UseDisplayTextAsClickCallback off
+    AnnotationType	    "note_annotation"
+    FixedHeight		    off
+    FixedWidth		    off
+    Interpreter		    "off"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  MaskDefaults {
+    SelfModifiable	    "off"
+    IconFrame		    "on"
+    IconOpaque		    "opaque"
+    RunInitForIconRedraw    "analyze"
+    IconRotate		    "none"
+    PortRotate		    "default"
+    IconUnits		    "autoscale"
+  }
+  MaskParameterDefaults {
+    Evaluate		    "on"
+    Tunable		    "on"
+    NeverSave		    "off"
+    Internal		    "off"
+    ReadOnly		    "off"
+    Enabled		    "on"
+    Visible		    "on"
+    ToolTip		    "on"
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      Lockdown		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      PMIOPort
+      Port		      "1"
+    }
+    Block {
+      BlockType		      SubSystem
+      ShowPortLabels	      "FromPortIcon"
+      Permissions	      "ReadWrite"
+      PermitHierarchicalResolution "All"
+      TreatAsAtomicUnit	      off
+      MinAlgLoopOccurrences   off
+      ScheduleAs	      "Sample time"
+      SystemSampleTime	      "-1"
+      RTWSystemCode	      "Auto"
+      RTWFcnNameOpts	      "Auto"
+      RTWFileNameOpts	      "Auto"
+      FunctionInterfaceSpec   "void_void"
+      FunctionWithSeparateData off
+      MatchGraphicalInterface off
+      RTWMemSecFuncInitTerm   "Inherit from model"
+      RTWMemSecFuncExecute    "Inherit from model"
+      RTWMemSecDataConstants  "Inherit from model"
+      RTWMemSecDataInternal   "Inherit from model"
+      RTWMemSecDataParameters "Inherit from model"
+      SimViewingDevice	      off
+      ActiveForDiff	      off
+      DataTypeOverride	      "UseLocalSettings"
+      DataTypeOverrideAppliesTo	"AllNumericTypes"
+      MinMaxOverflowLogging   "UseLocalSettings"
+      Opaque		      off
+      MaskHideContents	      off
+      SFBlockType	      "NONE"
+      Variant		      off
+      VariantControlMode      "expression"
+      VariantActivationTime   "update diagram"
+      AllowZeroVariantControls off
+      PropagateVariantConditions off
+      TreatAsGroupedWhenPropagatingVariantConditions on
+      ContentPreviewEnabled   off
+      IsWebBlock	      off
+      IsInjectorSS	      off
+      Latency		      "0"
+      AutoFrameSizeCalculation off
+      IsWebBlockPanel	      off
+    }
+  }
+  System {
+    Name		    "CBRModel_lib"
+    Location		    [72, 27, 2560, 1440]
+    SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
+    Open		    on
+    PortBlocksUseCompactNotation off
+    SetExecutionDomain	    off
+    ExecutionDomainType	    "Deduce"
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "usletter"
+    PaperUnits		    "inches"
+    TiledPaperMargins	    [0.500000, 0.500000, 0.500000, 0.500000]
+    TiledPageScale	    1
+    ShowPageBoundaries	    off
+    ZoomFactor		    "200"
+    ReportName		    "simulink-default.rpt"
+    SIDHighWatermark	    "900"
+    SimulinkSubDomain	    "Simulink"
+    Block {
+      BlockType		      SubSystem
+      Name		      "Backbone"
+      SID		      "839"
+      Ports		      [0, 0, 0, 0, 0, 4, 4]
+      Position		      [395, 96, 415, 144]
+      ZOrder		      -19
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		27
+	$ClassName		"Simulink.Mask"
+	Object {
+	  $PropName		  "Parameters"
+	  $ObjectID		  28
+	  $ClassName		  "Simulink.MaskParameter"
+	  Type			  "promote"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    4
+	    Cell		    "line_A/Length"
+	    Cell		    "line_B/Length"
+	    Cell		    "line_C/Length"
+	    Cell		    "line_N/Length"
+	    PropName		    "TypeOptions"
+	  }
+	  Name			  "length"
+	  Prompt		  "Length"
+	  Value			  "0.0465"
+	  Tunable		  "off"
+	}
+      }
+      System {
+	Name			"Backbone"
+	Location		[1316, 27, 2560, 1440]
+	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"150"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Voltage_AB"
+	  SID			  "856"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [145, 271, 230, 289]
+	  ZOrder		  -19
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "$bdroot/Voltage Measurement"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Voltage_BC"
+	  SID			  "857"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [145, 326, 230, 344]
+	  ZOrder		  -19
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "$bdroot/Voltage Measurement"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Voltage_CA"
+	  SID			  "858"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [145, 381, 230, 399]
+	  ZOrder		  -19
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "$bdroot/Voltage Measurement"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "line_A"
+	  SID			  "840"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [165, 39, 210, 51]
+	  ZOrder		  -11
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Pi Section Line"
+	  SourceType		  "Pi Section Line"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  Phases		  "1"
+	  PiSections		  "1"
+	  Length		  "length"
+	  Frequency		  "50"
+	  Resistance		  "0.497"
+	  Inductance		  "1.2032e-3"
+	  Capacitance		  "1e-9"
+	  Measurements		  "None"
+	  Measurements2		  "None"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "line_B"
+	  SID			  "841"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [165, 79, 210, 91]
+	  ZOrder		  -11
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Pi Section Line"
+	  SourceType		  "Pi Section Line"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  Phases		  "1"
+	  PiSections		  "1"
+	  Length		  "length"
+	  Frequency		  "50"
+	  Resistance		  "0.497"
+	  Inductance		  "1.2032e-3"
+	  Capacitance		  "1e-9"
+	  Measurements		  "None"
+	  Measurements2		  "None"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "line_C"
+	  SID			  "842"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [165, 119, 210, 131]
+	  ZOrder		  -11
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Pi Section Line"
+	  SourceType		  "Pi Section Line"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  Phases		  "1"
+	  PiSections		  "1"
+	  Length		  "length"
+	  Frequency		  "50"
+	  Resistance		  "0.497"
+	  Inductance		  "1.2032e-3"
+	  Capacitance		  "1e-9"
+	  Measurements		  "None"
+	  Measurements2		  "None"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "line_N"
+	  SID			  "843"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [165, 159, 210, 171]
+	  ZOrder		  -11
+	  BlockMirror		  on
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Pi Section Line"
+	  SourceType		  "Pi Section Line"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  Phases		  "1"
+	  PiSections		  "1"
+	  Length		  "length"
+	  Frequency		  "50"
+	  Resistance		  "0.497"
+	  Inductance		  "1.2032e-3"
+	  Capacitance		  "1e-9"
+	  Measurements		  "None"
+	  Measurements2		  "None"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "A"
+	  SID			  "844"
+	  Position		  [40, 38, 70, 52]
+	  ZOrder		  -26
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "B"
+	  SID			  "845"
+	  Position		  [40, 78, 70, 92]
+	  ZOrder		  -27
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "C"
+	  SID			  "846"
+	  Position		  [40, 118, 70, 132]
+	  ZOrder		  -28
+	  Port			  "3"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "n"
+	  SID			  "847"
+	  Position		  [40, 158, 70, 172]
+	  ZOrder		  -29
+	  Port			  "4"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "a"
+	  SID			  "848"
+	  Position		  [315, 38, 345, 52]
+	  ZOrder		  -30
+	  BlockMirror		  on
+	  Port			  "5"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "b"
+	  SID			  "849"
+	  Position		  [315, 78, 345, 92]
+	  ZOrder		  -31
+	  BlockMirror		  on
+	  Port			  "6"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "c"
+	  SID			  "850"
+	  Position		  [315, 118, 345, 132]
+	  ZOrder		  -32
+	  BlockMirror		  on
+	  Port			  "7"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "N"
+	  SID			  "851"
+	  Position		  [315, 158, 345, 172]
+	  ZOrder		  -33
+	  BlockMirror		  on
+	  Port			  "8"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "n"
+	  SrcPort		  RConn1
+	  DstBlock		  "line_N"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "line_N"
+	  SrcPort		  LConn1
+	  DstBlock		  "N"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  3
+	  SrcBlock		  "a"
+	  SrcPort		  RConn1
+	  Points		  [-25, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "line_A"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Voltage_CA"
+	    SrcPort		    RConn1
+	    Points		    [30, 0; 0, -345]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  6
+	  SrcBlock		  "line_B"
+	  SrcPort		  RConn1
+	  Points		  [30, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "b"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Voltage_AB"
+	    SrcPort		    RConn1
+	    Points		    [10, 0; 0, -195]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "line_C"
+	  SrcPort		  RConn1
+	  Points		  [40, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "c"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Voltage_BC"
+	    SrcPort		    RConn1
+	    Points		    [20, 0; 0, -210]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  12
+	  SrcBlock		  "C"
+	  SrcPort		  RConn1
+	  Points		  [30, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "line_C"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, 265]
+	    DstBlock		    "Voltage_CA"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  15
+	  SrcBlock		  "line_B"
+	  SrcPort		  LConn1
+	  Points		  [-45, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "B"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, 250]
+	    DstBlock		    "Voltage_BC"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  18
+	  SrcBlock		  "A"
+	  SrcPort		  RConn1
+	  Points		  [10, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "line_A"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    Points		    [0, 235]
+	    DstBlock		    "Voltage_AB"
+	    DstPort		    LConn1
+	  }
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Block"
+      SID		      "861"
+      Ports		      [0, 0, 0, 0, 0, 4, 4]
+      Position		      [130, 201, 505, 344]
+      ZOrder		      1
+      RequestExecContextInheritance off
+      ContentPreviewEnabled   on
+      System {
+	Name			"Block"
+	Location		[72, 27, 2560, 1440]
+	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"125"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "1"
+	  SID			  "868"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [390, 5, 410, 25]
+	  ZOrder		  6
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "10"
+	  SID			  "869"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [595, 340, 615, 360]
+	  ZOrder		  7
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "2"
+	  SID			  "870"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [535, 5, 555, 25]
+	  ZOrder		  8
+	  ForegroundColor	  "blue"
+	  BackgroundColor	  "cyan"
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "3"
+	  SID			  "871"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [595, 5, 615, 25]
+	  ZOrder		  9
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "4"
+	  SID			  "872"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [385, 340, 405, 360]
+	  ZOrder		  10
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "5"
+	  SID			  "873"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [525, 340, 545, 360]
+	  ZOrder		  11
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "6"
+	  SID			  "874"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [745, 340, 765, 360]
+	  ZOrder		  12
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "7"
+	  SID			  "875"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [710, 5, 730, 25]
+	  ZOrder		  13
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "8"
+	  SID			  "876"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [765, 5, 785, 25]
+	  ZOrder		  5
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "9"
+	  SID			  "877"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [825, 5, 845, 25]
+	  ZOrder		  15
+	  NameLocation		  "top"
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Individual House"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.025"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_01"
+	  SID			  "878"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [300, 56, 320, 104]
+	  ZOrder		  16
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_04"
+	  SID			  "879"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [300, 221, 320, 269]
+	  ZOrder		  17
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_12"
+	  SID			  "880"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [470, 56, 490, 104]
+	  ZOrder		  18
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_23"
+	  SID			  "881"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [655, 56, 675, 104]
+	  ZOrder		  19
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_3x"
+	  SID			  "882"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [875, 56, 895, 104]
+	  ZOrder		  20
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_45"
+	  SID			  "883"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [470, 221, 490, 269]
+	  ZOrder		  21
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_56"
+	  SID			  "884"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [655, 221, 675, 269]
+	  ZOrder		  22
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "z_6x"
+	  SID			  "885"
+	  Ports			  [0, 0, 0, 0, 0, 4, 4]
+	  Position		  [835, 221, 855, 269]
+	  ZOrder		  14
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "ExampleModel_lib/Backbone"
+	  SourceType		  ""
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  length		  "0.02"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "PhaseA"
+	  SID			  "886"
+	  Position		  [135, 88, 165, 102]
+	  ZOrder		  23
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "PhaseB"
+	  SID			  "887"
+	  Position		  [135, 128, 165, 142]
+	  ZOrder		  24
+	  Port			  "2"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "PhaseC"
+	  SID			  "888"
+	  Position		  [135, 168, 165, 182]
+	  ZOrder		  25
+	  Port			  "3"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Neutral"
+	  SID			  "889"
+	  Position		  [135, 208, 165, 222]
+	  ZOrder		  26
+	  Port			  "4"
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "PhaseAOut"
+	  SID			  "897"
+	  Position		  [1000, 183, 1030, 197]
+	  ZOrder		  33
+	  BlockMirror		  on
+	  Port			  "5"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "PhaseBOut"
+	  SID			  "898"
+	  Position		  [1000, 223, 1030, 237]
+	  ZOrder		  34
+	  BlockMirror		  on
+	  Port			  "6"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "PhaseCOut"
+	  SID			  "899"
+	  Position		  [1000, 253, 1030, 267]
+	  ZOrder		  35
+	  BlockMirror		  on
+	  Port			  "7"
+	  Side			  "Right"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "NeutralOut"
+	  SID			  "900"
+	  Position		  [1000, 293, 1030, 307]
+	  ZOrder		  36
+	  BlockMirror		  on
+	  Port			  "8"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  86
+	  Points		  [580, 85; 0, -70]
+	  DstBlock		  "3"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_23"
+	    SrcPort		    LConn3
+	    Points		    [-60, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_12"
+	    DstPort		    RConn3
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  89
+	  SrcBlock		  "10"
+	  SrcPort		  RConn1
+	  Points		  [0, -90]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [560, 260; 70, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "z_45"
+	      SrcPort		      RConn4
+	      Points		      [55, 0]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "5"
+	      SrcPort		      RConn1
+	      Points		      [0, -90]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "z_56"
+	    DstPort		    LConn4
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  94
+	  Points		  [240, 175; 0, 75; 45, 0]
+	  DstBlock		  "z_04"
+	  DstPort		  LConn3
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "PhaseC"
+	    SrcPort		    RConn1
+	    Points		    [60, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, -90]
+	    DstBlock		    "z_01"
+	    DstPort		    LConn3
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  97
+	  Points		  [230, 135; 0, 105; 55, 0]
+	  DstBlock		  "z_04"
+	  DstPort		  LConn2
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "PhaseB"
+	    SrcPort		    RConn1
+	    Points		    [50, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, -60]
+	    DstBlock		    "z_01"
+	    DstPort		    LConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  100
+	  SrcBlock		  "7"
+	  SrcPort		  RConn1
+	  Points		  [0, 80]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [800, 95; -55, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      Points		      [845, 95; -45, 0]
+	      Branch {
+		ConnectType		"SRC_DEST"
+		SrcBlock		"z_3x"
+		SrcPort			LConn4
+		Points			[-15, 0]
+	      }
+	      Branch {
+		ConnectType		"SRC_DEST"
+		SrcBlock		"9"
+		SrcPort			RConn1
+		Points			[0, 40; -15, 0; 0, 40]
+	      }
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "8"
+	      SrcPort		      RConn1
+	      Points		      [0, 80]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "z_23"
+	    DstPort		    RConn4
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  107
+	  Points		  [750, 75; 0, -60]
+	  DstBlock		  "8"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_23"
+	    SrcPort		    RConn2
+	    Points		    [60, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_3x"
+	    DstPort		    LConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  110
+	  SrcBlock		  "2"
+	  SrcPort		  RConn1
+	  Points		  [0, 80]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    Points		    [630, 95; -60, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "z_23"
+	      SrcPort		      LConn4
+	      Points		      [-10, 0]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "3"
+	      SrcPort		      RConn1
+	      Points		      [0, 80]
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "z_12"
+	    DstPort		    RConn4
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  115
+	  SrcBlock		  "4"
+	  SrcPort		  RConn1
+	  Points		  [10, 0; 0, -90]
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "z_45"
+	    SrcPort		    LConn4
+	    Points		    [-25, 0]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "z_04"
+	    DstPort		    RConn4
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  118
+	  Points		  [695, 65; 0, -50]
+	  DstBlock		  "7"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    Points		    [810, 65; -115, 0]
+	    Branch {
+	      ConnectType	      "SRC_DEST"
+	      SrcBlock		      "z_3x"
+	      SrcPort		      LConn1
+	      Points		      [-50, 0]
+	    }
+	    Branch {
+	      ConnectType	      "SRC_SRC"
+	      DstBlock		      "9"
+	      DstPort		      LConn1
+	    }
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_23"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  123
+	  Points		  [580, 230; 0, 120]
+	  DstBlock		  "10"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_56"
+	    SrcPort		    LConn1
+	    Points		    [-60, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_45"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  126
+	  SrcBlock		  "1"
+	  SrcPort		  RConn1
+	  Points		  [10, 0; 0, 80]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "z_12"
+	    DstPort		    LConn4
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "z_01"
+	    SrcPort		    RConn4
+	    Points		    [100, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  129
+	  SrcBlock		  "z_6x"
+	  SrcPort		  LConn4
+	  Points		  [-25, 0]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "z_56"
+	    DstPort		    RConn4
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "6"
+	    SrcPort		    RConn1
+	    Points		    [15, 0; 0, -90]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  132
+	  Points		  [715, 250; 105, 0]
+	  DstBlock		  "z_6x"
+	  DstPort		  LConn3
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_56"
+	    SrcPort		    RConn3
+	    Points		    [25, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, 100]
+	    DstBlock		    "6"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  135
+	  Points		  [220, 95; 0, 135; 65, 0]
+	  DstBlock		  "z_04"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "PhaseA"
+	    SrcPort		    RConn1
+	    Points		    [40, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, -30]
+	    DstBlock		    "z_01"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  138
+	  Points		  [365, 65; 0, -50; 10, 0]
+	  DstBlock		  "1"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_12"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_01"
+	    SrcPort		    RConn1
+	    Points		    [30, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  141
+	  Points		  [360, 230; 0, 120; 10, 0]
+	  DstBlock		  "4"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_45"
+	    SrcPort		    LConn1
+	    Points		    [-95, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_04"
+	    DstPort		    RConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  144
+	  Points		  [250, 215; 0, 45; 35, 0]
+	  DstBlock		  "z_04"
+	  DstPort		  LConn4
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "Neutral"
+	    SrcPort		    RConn1
+	    Points		    [70, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    Points		    [0, -120]
+	    DstBlock		    "z_01"
+	    DstPort		    LConn4
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  147
+	  Points		  [510, 250; 0, 100]
+	  DstBlock		  "5"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_56"
+	    SrcPort		    LConn3
+	    Points		    [-130, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_45"
+	    DstPort		    RConn3
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  150
+	  Points		  [520, 75; 0, -60]
+	  DstBlock		  "2"
+	  DstPort		  LConn1
+	  Branch {
+	    ConnectType		    "SRC_DEST"
+	    SrcBlock		    "z_23"
+	    SrcPort		    LConn2
+	    Points		    [-120, 0]
+	  }
+	  Branch {
+	    ConnectType		    "SRC_SRC"
+	    DstBlock		    "z_12"
+	    DstPort		    RConn2
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  172
+	  SrcBlock		  "PhaseAOut"
+	  SrcPort		  RConn1
+	  Points		  [-106, 0; 0, 40]
+	  DstBlock		  "z_6x"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "z_56"
+	  SrcPort		  LConn2
+	  DstBlock		  "z_45"
+	  DstPort		  RConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  6
+	  SrcBlock		  "z_45"
+	  SrcPort		  LConn2
+	  DstBlock		  "z_04"
+	  DstPort		  RConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  7
+	  SrcBlock		  "z_01"
+	  SrcPort		  RConn2
+	  DstBlock		  "z_12"
+	  DstPort		  LConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  8
+	  SrcBlock		  "z_45"
+	  SrcPort		  LConn3
+	  DstBlock		  "z_04"
+	  DstPort		  RConn3
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "z_6x"
+	  SrcPort		  LConn1
+	  DstBlock		  "z_56"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "z_01"
+	  SrcPort		  RConn3
+	  DstBlock		  "z_12"
+	  DstPort		  LConn3
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  11
+	  SrcBlock		  "z_12"
+	  SrcPort		  RConn1
+	  DstBlock		  "z_23"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  13
+	  SrcBlock		  "z_23"
+	  SrcPort		  RConn3
+	  DstBlock		  "z_3x"
+	  DstPort		  LConn3
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  15
+	  SrcBlock		  "z_6x"
+	  SrcPort		  LConn2
+	  DstBlock		  "z_56"
+	  DstPort		  RConn2
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  179
+	  SrcBlock		  "z_6x"
+	  SrcPort		  RConn4
+	  Points		  [23, 0; 0, 40]
+	  DstBlock		  "NeutralOut"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  167
+	  SrcBlock		  "z_6x"
+	  SrcPort		  RConn2
+	  Points		  [58, 0; 0, -10]
+	  DstBlock		  "PhaseBOut"
+	  DstPort		  RConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  178
+	  SrcBlock		  "z_6x"
+	  SrcPort		  RConn3
+	  Points		  [61, 0; 0, 10]
+	  DstBlock		  "PhaseCOut"
+	  DstPort		  RConn1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Current Measurement"
+      SID		      "679"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [80, 131, 165, 149]
+      ZOrder		      -19
+      StopFcn		      "myname = getfullname(gcb);                                                                      "
+      "\nrto = get_param([myname '/RMS Display'], 'RuntimeObject');                                      \nset_param(my"
+      "name, 'MaskDisplay', ['color(''blue''); disp(' num2str(rto.InputPort(1).Data) ')']);"
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		29
+	$ClassName		"Simulink.Mask"
+	SelfModifiable		"on"
+	Display			"port_label('lconn', 1, '+')\nport_label('rconn', 1, '-')\ncolor('blue')\ndisp('0')\n"
+      }
+      System {
+	Name			"Current Measurement"
+	Location		[1316, 27, 2560, 1440]
+	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"198"
+	SIDHighWatermark	"753"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Current Measurement"
+	  SID			  "679:692"
+	  Ports			  [0, 1, 0, 0, 0, 1, 1]
+	  Position		  [145, 31, 165, 49]
+	  ZOrder		  -4
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Measurements/Current Measurement"
+	  SourceType		  "Current Measurement"
+	  SourceProductBaseCode	  "PS"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  PhasorSimulation	  off
+	  OutputType		  "Complex"
+	  PSBequivalent		  "0"
+	  Port {
+	    PortNumber		    1
+	    Name		    "Current"
+	  }
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Discrete Fourier"
+	  SID			  "679:682"
+	  Ports			  [1, 2]
+	  Position		  [330, 227, 405, 318]
+	  ZOrder		  -6
+	  LibraryVersion	  "1.676"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib_extras/Discrete\nMeasurements/Discrete \nFourier"
+	  SourceType		  "Discrete Fourier"
+	  SourceProductBaseCode	  "PS"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  Freq			  "50"
+	  n			  "1"
+	  Par_Init		  "[0 0]"
+	  Ts			  "0.001"
+	  Port {
+	    PortNumber		    1
+	    Name		    "DF1"
+	    ShowPropagatedSignals   "on"
+	    DataLogging		    on
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "1"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "DF2"
+	    ShowPropagatedSignals   "on"
+	    DataLogging		    on
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "1"
+	  }
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Magnitude Display"
+	  SID			  "679:684"
+	  Ports			  [1]
+	  Position		  [495, 238, 580, 262]
+	  ZOrder		  -1
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Phase Display"
+	  SID			  "679:685"
+	  Ports			  [1]
+	  Position		  [495, 283, 580, 307]
+	  ZOrder		  -1
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "RMS (discrete)"
+	  SID			  "679:686"
+	  Ports			  [1, 1]
+	  Position		  [335, 111, 400, 149]
+	  ZOrder		  -8
+	  LibraryVersion	  "1.676"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib_extras/Discrete\nMeasurements/Discrete \nRMS value"
+	  SourceType		  "Discrete RMS value"
+	  SourceProductBaseCode	  "PS"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  Freq			  "50"
+	  Mag_Init		  "0"
+	  Ts			  "0.001"
+	  Port {
+	    PortNumber		    1
+	    Name		    "RMS1"
+	    ShowPropagatedSignals   "on"
+	    DataLogging		    on
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "1"
+	  }
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "RMS Display"
+	  SID			  "679:687"
+	  Ports			  [1]
+	  Position		  [495, 116, 580, 144]
+	  ZOrder		  -1
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "+"
+	  SID			  "679:690"
+	  Position		  [20, 33, 50, 47]
+	  ZOrder		  -11
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "-"
+	  SID			  "679:694"
+	  Position		  [550, 38, 580, 52]
+	  ZOrder		  -12
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  Name			  "RMS1"
+	  ZOrder		  1
+	  Labels		  [0, 0]
+	  SrcBlock		  "RMS (discrete)"
+	  SrcPort		  1
+	  DstBlock		  "RMS Display"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "DF1"
+	  ZOrder		  2
+	  Labels		  [0, 0]
+	  SrcBlock		  "Discrete Fourier"
+	  SrcPort		  1
+	  DstBlock		  "Magnitude Display"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "DF2"
+	  ZOrder		  3
+	  Labels		  [0, 0]
+	  SrcBlock		  "Discrete Fourier"
+	  SrcPort		  2
+	  DstBlock		  "Phase Display"
+	  DstPort		  1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  "+"
+	  SrcPort		  RConn1
+	  DstBlock		  "Current Measurement"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  "Current Measurement"
+	  SrcPort		  RConn1
+	  DstBlock		  "-"
+	  DstPort		  RConn1
+	}
+	Line {
+	  Name			  "Current"
+	  ZOrder		  6
+	  Labels		  [0, 0]
+	  SrcBlock		  "Current Measurement"
+	  SrcPort		  1
+	  Points		  [70, 0; 0, 95]
+	  Branch {
+	    ZOrder		    7
+	    Points		    [0, 145]
+	    DstBlock		    "Discrete Fourier"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    8
+	    DstBlock		    "RMS (discrete)"
+	    DstPort		    1
+	  }
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Individual House"
+      SID		      "758"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [255, 90, 305, 140]
+      ZOrder		      -19
+      NameLocation	      "top"
+      LibraryVersion	      "1.179"
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		30
+	$ClassName		"Simulink.Mask"
+	Display			"plot([20 30 40 20 20 40 40], [30 40 30 30 10 10 30])\nport_label('LConn',1,'+')\nport_label('RConn',1,'-')\n\n"
+	Object {
+	  $PropName		  "Parameters"
+	  $ObjectID		  31
+	  $ClassName		  "Simulink.MaskParameter"
+	  Type			  "promote"
+	  Array {
+	    Type		    "Cell"
+	    Dimension		    2
+	    Cell		    "Service Active/Length"
+	    Cell		    "Service Neutral/Length"
+	    PropName		    "TypeOptions"
+	  }
+	  Name			  "length"
+	  Prompt		  "Length of service line (km)"
+	  Value			  "0.025"
+	  Tunable		  "off"
+	}
+      }
+      System {
+	Name			"Individual House"
+	Location		[1316, 27, 2560, 1440]
+	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"123"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  " "
+	  SID			  "761"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [348, 135, 362, 160]
+	  ZOrder		  -13
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NameLocation		  "left"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Series RLC Branch"
+	  SourceType		  "Series RLC Branch"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  BranchType		  "R"
+	  Resistance		  "10"
+	  Inductance		  "1e-3"
+	  SetiL0		  off
+	  InitialCurrent	  "0"
+	  Capacitance		  "1e-6"
+	  Setx0			  off
+	  InitialVoltage	  "0"
+	  Measurements		  "None"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Ground"
+	  SID			  "764"
+	  Ports			  [0, 0, 0, 0, 0, 1]
+	  Position		  [348, 185, 362, 200]
+	  ZOrder		  -3
+	  BlockRotation		  270
+	  BlockMirror		  on
+	  NameLocation		  "right"
+	  ShowName		  off
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Ground"
+	  SourceType		  "Ground"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "a"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "House"
+	  SID			  "765"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [230, 73, 290, 137]
+	  ZOrder		  -10
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Parallel RLC Load"
+	  SourceType		  "Parallel RLC Load"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "a"
+	  RConnTagsString	  "__new0"
+	  NominalVoltage	  "230"
+	  NominalFrequency	  "50"
+	  ActivePower		  "731.733"
+	  InductivePower	  "104.266"
+	  CapacitivePower	  "1e-06"
+	  Setx0			  off
+	  InitialVoltage	  "0"
+	  SetiL0		  off
+	  InitialCurrent	  "0"
+	  Measurements		  "None"
+	  LoadType		  "constant Z"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Service Active"
+	  SID			  "852"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [100, 99, 150, 111]
+	  ZOrder		  -11
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Pi Section Line"
+	  SourceType		  "Pi Section Line"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  Phases		  "1"
+	  PiSections		  "1"
+	  Length		  "length"
+	  Frequency		  "50"
+	  Resistance		  "2.33"
+	  Inductance		  "2.833e-4"
+	  Capacitance		  "1e-9"
+	  Measurements		  "None"
+	  Measurements2		  "None"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Service Neutral"
+	  SID			  "853"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [420, 99, 470, 111]
+	  ZOrder		  -11
+	  AttributesFormatString  "\\n"
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Elements/Pi Section Line"
+	  SourceType		  "Pi Section Line"
+	  SourceProductBaseCode	  "PS"
+	  LConnTagsString	  "__new0"
+	  RConnTagsString	  "__new0"
+	  Phases		  "1"
+	  PiSections		  "1"
+	  Length		  "length"
+	  Frequency		  "50"
+	  Resistance		  "2.33"
+	  Inductance		  "2.833e-4"
+	  Capacitance		  "1e-9"
+	  Measurements		  "None"
+	  Measurements2		  "None"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Voltage Measurement"
+	  SID			  "768"
+	  Ports			  [0, 0, 0, 0, 0, 1, 1]
+	  Position		  [220, 16, 305, 34]
+	  ZOrder		  -19
+	  LibraryVersion	  "19.2"
+	  SourceBlock		  "$bdroot/Voltage Measurement"
+	  SourceType		  ""
+	  ShowPortLabels	  "FromPortIcon"
+	  SystemSampleTime	  "-1"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  VariantActivationTime	  "update diagram"
+	  AllowZeroVariantControls off
+	  PropagateVariantConditions off
+	  ContentPreviewEnabled	  off
+	  Latency		  "0"
+	  AutoFrameSizeCalculation off
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "In"
+	  SID			  "769"
+	  Position		  [30, 98, 60, 112]
+	  ZOrder		  -20
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "Out"
+	  SID			  "780"
+	  Position		  [510, 98, 540, 112]
+	  ZOrder		  -21
+	  BlockMirror		  on
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "Voltage Measurement"
+	  SrcPort		  LConn1
+	  Points		  [-15, 0; 0, 80]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "House"
+	    DstPort		    LConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Service Active"
+	    SrcPort		    RConn1
+	    Points		    [25, 0]
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  4
+	  SrcBlock		  " "
+	  SrcPort		  RConn1
+	  DstBlock		  "Ground"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  5
+	  SrcBlock		  " "
+	  SrcPort		  LConn1
+	  Points		  [0, -15]
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "House"
+	    DstPort		    RConn1
+	  }
+	  Branch {
+	    ConnectType		    "DEST_DEST"
+	    SrcBlock		    "Voltage Measurement"
+	    SrcPort		    RConn1
+	    Points		    [35, 0; 0, 80]
+	  }
+	  Branch {
+	    ConnectType		    "DEST_SRC"
+	    DstBlock		    "Service Neutral"
+	    DstPort		    LConn1
+	  }
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  9
+	  SrcBlock		  "In"
+	  SrcPort		  RConn1
+	  DstBlock		  "Service Active"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  10
+	  SrcBlock		  "Service Neutral"
+	  SrcPort		  RConn1
+	  DstBlock		  "Out"
+	  DstPort		  RConn1
+	}
+	Annotation {
+	  SID			  "859"
+	  Name			  "Ground"
+	  Position		  [385, 184, 420, 199]
+	  InternalMargins	  [0, 0, 0, 0]
+	  ZOrder		  -1
+	}
+      }
+    }
+    Block {
+      BlockType		      SubSystem
+      Name		      "Voltage Measurement"
+      SID		      "658"
+      Ports		      [0, 0, 0, 0, 0, 1, 1]
+      Position		      [80, 81, 165, 99]
+      ZOrder		      -19
+      StopFcn		      "myname = getfullname(gcb);                                                                      "
+      "\nrto = get_param([myname '/RMS Display'], 'RuntimeObject');                                      \nset_param(my"
+      "name, 'MaskDisplay', ['color(''blue''); disp(' num2str(rto.InputPort(1).Data) ')']);"
+      RequestExecContextInheritance off
+      Object {
+	$PropName		"MaskObject"
+	$ObjectID		32
+	$ClassName		"Simulink.Mask"
+	SelfModifiable		"on"
+	Display			"port_label('lconn', 1, '+')\nport_label('rconn', 1, '-')\ncolor('blue')\ndisp('0')\n\n"
+      }
+      System {
+	Name			"Voltage Measurement"
+	Location		[67, 27, 2560, 1440]
+	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
+	Open			off
+	PortBlocksUseCompactNotation off
+	SetExecutionDomain	off
+	ExecutionDomainType	"Deduce"
+	ModelBrowserVisibility	off
+	ModelBrowserWidth	200
+	ScreenColor		"white"
+	PaperOrientation	"landscape"
+	PaperPositionMode	"auto"
+	PaperType		"usletter"
+	PaperUnits		"inches"
+	TiledPaperMargins	[0.500000, 0.500000, 0.500000, 0.500000]
+	TiledPageScale		1
+	ShowPageBoundaries	off
+	ZoomFactor		"300"
+	SIDHighWatermark	"754"
+	SimulinkSubDomain	"Simulink"
+	Block {
+	  BlockType		  Reference
+	  Name			  "Discrete Fourier"
+	  SID			  "658:663"
+	  Ports			  [1, 2]
+	  Position		  [325, 157, 400, 248]
+	  ZOrder		  -6
+	  LibraryVersion	  "1.676"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib_extras/Discrete\nMeasurements/Discrete \nFourier"
+	  SourceType		  "Discrete Fourier"
+	  SourceProductBaseCode	  "PS"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  Freq			  "50"
+	  n			  "1"
+	  Par_Init		  "[0 0]"
+	  Ts			  "0.001"
+	  Port {
+	    PortNumber		    1
+	    Name		    "DF1"
+	    ShowPropagatedSignals   "on"
+	    DataLogging		    on
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "1"
+	  }
+	  Port {
+	    PortNumber		    2
+	    Name		    "DF2"
+	    ShowPropagatedSignals   "on"
+	    DataLogging		    on
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "1"
+	  }
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Magnitude Display"
+	  SID			  "658:674"
+	  Ports			  [1]
+	  Position		  [490, 168, 575, 192]
+	  ZOrder		  -1
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "Phase Display"
+	  SID			  "658:675"
+	  Ports			  [1]
+	  Position		  [490, 213, 575, 237]
+	  ZOrder		  -1
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "RMS (discrete)"
+	  SID			  "658:667"
+	  Ports			  [1, 1]
+	  Position		  [330, 41, 395, 79]
+	  ZOrder		  -8
+	  LibraryVersion	  "1.676"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib_extras/Discrete\nMeasurements/Discrete \nRMS value"
+	  SourceType		  "Discrete RMS value"
+	  SourceProductBaseCode	  "PS"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  Freq			  "50"
+	  Mag_Init		  "0"
+	  Ts			  "0.001"
+	  Port {
+	    PortNumber		    1
+	    Name		    "RMS1"
+	    ShowPropagatedSignals   "on"
+	    DataLogging		    on
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "1"
+	  }
+	}
+	Block {
+	  BlockType		  Display
+	  Name			  "RMS Display"
+	  SID			  "658:664"
+	  Ports			  [1]
+	  Position		  [490, 46, 575, 74]
+	  ZOrder		  -1
+	  Decimation		  "1"
+	}
+	Block {
+	  BlockType		  Reference
+	  Name			  "Voltage Measurement"
+	  SID			  "658:669"
+	  Ports			  [0, 1, 0, 0, 0, 2]
+	  Position		  [170, 90, 190, 110]
+	  ZOrder		  -9
+	  LibraryVersion	  "1.2890"
+	  FontName		  "Verdana"
+	  FontSize		  11
+	  SourceBlock		  "powerlib/Measurements/Voltage Measurement"
+	  SourceType		  "Voltage Measurement"
+	  SourceProductBaseCode	  "PS"
+	  RTWMemSecFuncInitTerm	  "Inherit from model"
+	  RTWMemSecFuncExecute	  "Inherit from model"
+	  RTWMemSecDataConstants  "Inherit from model"
+	  RTWMemSecDataInternal	  "Inherit from model"
+	  RTWMemSecDataParameters "Inherit from model"
+	  ContentPreviewEnabled	  off
+	  PhasorSimulation	  off
+	  OutputType		  "Complex"
+	  PSBequivalent		  "0"
+	  Port {
+	    PortNumber		    1
+	    Name		    "Voltage"
+	    DataLoggingLimitDataPoints on
+	    DataLoggingMaxPoints    "5000"
+	  }
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "+"
+	  SID			  "658:661"
+	  Position		  [40, 53, 70, 67]
+	  ZOrder		  -12
+	  Side			  "Left"
+	}
+	Block {
+	  BlockType		  PMIOPort
+	  Name			  "-"
+	  SID			  "658:738"
+	  Position		  [40, 143, 70, 157]
+	  ZOrder		  -13
+	  Port			  "2"
+	  Side			  "Right"
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  1
+	  SrcBlock		  "+"
+	  SrcPort		  RConn1
+	  Points		  [10, 0; 0, 35]
+	  DstBlock		  "Voltage Measurement"
+	  DstPort		  LConn1
+	}
+	Line {
+	  LineType		  "Connection"
+	  ZOrder		  2
+	  SrcBlock		  "-"
+	  SrcPort		  RConn1
+	  Points		  [10, 0; 0, -45]
+	  DstBlock		  "Voltage Measurement"
+	  DstPort		  LConn2
+	}
+	Line {
+	  Name			  "Voltage"
+	  ZOrder		  3
+	  Labels		  [0, 0]
+	  SrcBlock		  "Voltage Measurement"
+	  SrcPort		  1
+	  Points		  [60, 0]
+	  Branch {
+	    ZOrder		    4
+	    Points		    [0, 105]
+	    DstBlock		    "Discrete Fourier"
+	    DstPort		    1
+	  }
+	  Branch {
+	    ZOrder		    5
+	    Points		    [0, -40]
+	    DstBlock		    "RMS (discrete)"
+	    DstPort		    1
+	  }
+	}
+	Line {
+	  Name			  "RMS1"
+	  ZOrder		  6
+	  Labels		  [0, 0]
+	  SrcBlock		  "RMS (discrete)"
+	  SrcPort		  1
+	  DstBlock		  "RMS Display"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "DF1"
+	  ZOrder		  7
+	  Labels		  [0, 0]
+	  SrcBlock		  "Discrete Fourier"
+	  SrcPort		  1
+	  DstBlock		  "Magnitude Display"
+	  DstPort		  1
+	}
+	Line {
+	  Name			  "DF2"
+	  ZOrder		  8
+	  Labels		  [0, 0]
+	  SrcBlock		  "Discrete Fourier"
+	  SrcPort		  2
+	  DstBlock		  "Phase Display"
+	  DstPort		  1
+	}
+      }
+    }
+    Annotation {
+      SID		      "860"
+      Name		      "CBR model library"
+      Position		      [169, 13, 316, 36]
+      InternalMargins	      [0, 0, 0, 0]
+      ZOrder		      -1
+      FontSize		      18
+    }
+  }
+}

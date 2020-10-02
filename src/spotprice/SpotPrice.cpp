@@ -53,7 +53,7 @@ double SpotPrice::findPriceAt(DateTime datetime) {
     std::stringstream ss;
     ss << dataDir << "DATA" << datetime.year;
     if(datetime.month < 10) ss << "0";
-    ss << datetime.month << "_VIC1.csv";
+    ss << datetime.month << "_NSW1.csv";
     
     // Open data file
    std::fstream infile(ss.str().c_str(), std::ios::in);
