@@ -3,19 +3,20 @@
 <configfile         flag="C"    value="configs/cbrconfig.xml" />
 
 <simulationinterval flag="i"    value="30" />
+
 <starttime          flag="s"    value="00.00.19.08.2019" />           
 <finishtime         flag="f"    value="00.00.20.08.2019" />    
 
-<intervaldelay      flag="d"    value="0" />           
-<showdebug          flag="D"    value="yes" />   
-<generatereport     flag="g"    value="yes" />   
+<intervaldelay      flag="d"    value="0" />
+<showdebug          flag="D"    value="yes" />
+<generatereport     flag="g"    value="yes" />
 
 <demanddatadir      flag="f_de" value="data/cbr_demand/generic/cbr_weekday_generic.csv" />
 <demandmodel        flag="M"    value="generic" />
 <housedemandalloc   flag="hda"  value="x.csv" />
 <demandrandom_int   flag="dri"  value="0,0,0,0" />
 
-<evpenetration      flag="p"    value="50" />
+<evpenetration      flag="p"    value="6" />
 <trafficdata        flag="f_td" value="data/traffic/cbrtraffic.csv" />
 <trafficmodel       flag="ta"   value="random" />
 <trafficmodelfile   flag="f_ta" value="data/traffic/exampletrafficmodelfile.csv" />
@@ -30,12 +31,12 @@
 <batterystart       flag="S"    value="33" />
 <batteryrandom      flag="S_r"  value="0,7,-12,12" />
 <batterycapacity    flag="b"    value="66" />
-<batterydata        flag="f_ba" value="data/battery/examplebattery.txt" />
+<batterydata        flag="f_ba" value="data/battery/cbrbattery.txt" />
 
 <spotpricedata      flag="f_sp" value="data/spotprice/AEMO/" />
 
 <loadflowsimulator  flag="l"    value="matlab" />
-<modelpath          flag="m"    value="matlab/CBRModel.mdl" />
+<modelpath          flag="m"    value="matlab/FordeModel.mld" />
 <modellibpath       flag="ml"   value="matlab/ExampleModel_lib.mdl" />
 
 <frequency          flag="f"    value="50" />
@@ -55,5 +56,3 @@
 <servicelinemax     flag="c_s"  value="100" />
 <backbonemax        flag="c_b"  value="400" />
 <minvoltage         flag="V_mn" value="218" />
-
-

@@ -1,8 +1,8 @@
 Model {
-  Name			  "CBRModel"
+  Name			  "KambahModel"
   Version		  10.2
   SavedCharacterEncoding  "UTF-8"
-  ModelUUID		  "96dab3c0-97fa-4b92-86c5-47184c2c17f3"
+  ModelUUID		  "7b003b2a-767a-44eb-872e-95e1be21c929"
   GraphicalInterface {
     NumRootInports	    0
     NumRootOutports	    0
@@ -12,7 +12,7 @@ Model {
     NumTestPointedSignals   417
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Current Neutral/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Neutral/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -20,7 +20,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Current Neutral/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Neutral/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -29,7 +29,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Current Neutral/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Current Neutral/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -37,7 +37,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Current Phase A/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Phase A/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -45,7 +45,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Current Phase A/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Phase A/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -54,7 +54,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Current Phase A/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Current Phase A/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -62,7 +62,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Current Phase B/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Phase B/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -70,7 +70,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Current Phase B/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Phase B/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -79,7 +79,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Current Phase B/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Current Phase B/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -87,7 +87,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Current Phase C/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Phase C/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -95,7 +95,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Current Phase C/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Current Phase C/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -104,7 +104,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Current Phase C/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Current Phase C/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -112,7 +112,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/1/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/1/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -120,7 +120,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/1/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/1/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -129,7 +129,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/1/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/1/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -137,15 +137,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/1/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/1/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/10/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/10/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -153,7 +153,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/10/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/10/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -162,7 +162,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/10/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/10/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -170,15 +170,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/10/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/10/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/11/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/11/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -186,7 +186,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/11/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/11/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -195,7 +195,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/11/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/11/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -203,15 +203,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/11/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/11/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/12/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/12/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -219,7 +219,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/12/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/12/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -228,7 +228,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/12/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/12/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -236,15 +236,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/12/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/12/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/13/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/13/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -252,7 +252,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/13/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/13/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -261,7 +261,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/13/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/13/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -269,15 +269,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/13/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/13/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/14/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/14/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -285,7 +285,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/14/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/14/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -294,7 +294,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/14/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/14/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -302,15 +302,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/14/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/14/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/15/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/15/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -318,7 +318,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/15/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/15/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -327,7 +327,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/15/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/15/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -335,15 +335,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/15/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/15/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/16/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/16/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -351,7 +351,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/16/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/16/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -360,7 +360,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/16/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/16/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -368,15 +368,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/16/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/16/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/17/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/17/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -384,7 +384,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/17/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/17/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -393,7 +393,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/17/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/17/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -401,15 +401,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/17/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/17/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/18/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/18/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -417,7 +417,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/18/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/18/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -426,7 +426,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/18/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/18/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -434,15 +434,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/18/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/18/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/19/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/19/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -450,7 +450,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/19/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/19/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -459,7 +459,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/19/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/19/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -467,15 +467,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/19/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/19/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/2/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/2/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -483,7 +483,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/2/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/2/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -492,7 +492,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/2/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/2/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -500,15 +500,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/2/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/2/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/20/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/20/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -516,7 +516,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/20/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/20/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -525,7 +525,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/20/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/20/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -533,15 +533,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/20/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/20/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/21/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/21/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -549,7 +549,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/21/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/21/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -558,7 +558,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/21/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/21/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -566,15 +566,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/21/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/21/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/22/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/22/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -582,7 +582,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/22/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/22/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -591,7 +591,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/22/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/22/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -599,15 +599,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/22/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/22/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/23/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/23/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -615,7 +615,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/23/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/23/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -624,7 +624,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/23/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/23/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -632,15 +632,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/23/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/23/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/24/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/24/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -648,7 +648,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/24/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/24/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -657,7 +657,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/24/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/24/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -665,15 +665,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/24/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/24/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/25/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/25/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -681,7 +681,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/25/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/25/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -690,7 +690,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/25/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/25/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -698,15 +698,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/25/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/25/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/26/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/26/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -714,7 +714,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/26/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/26/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -723,7 +723,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/26/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/26/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -731,15 +731,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/26/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/26/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/27/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/27/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -747,7 +747,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/27/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/27/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -756,7 +756,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/27/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/27/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -764,15 +764,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/27/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/27/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/28/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/28/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -780,7 +780,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/28/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/28/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -789,7 +789,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/28/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/28/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -797,15 +797,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/28/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/28/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/29/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/29/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -813,7 +813,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/29/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/29/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -822,7 +822,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/29/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/29/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -830,15 +830,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/29/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/29/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/3/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/3/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -846,7 +846,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/3/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/3/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -855,7 +855,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/3/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/3/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -863,15 +863,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/3/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/3/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/30/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/30/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -879,7 +879,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/30/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/30/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -888,7 +888,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/30/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/30/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -896,15 +896,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/30/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/30/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/31/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/31/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -912,7 +912,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/31/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/31/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -921,7 +921,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/31/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/31/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -929,15 +929,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/31/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/31/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/32/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/32/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -945,7 +945,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/32/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/32/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -954,7 +954,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/32/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/32/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -962,15 +962,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/32/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/32/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/33/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/33/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -978,7 +978,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/33/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/33/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -987,7 +987,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/33/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/33/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -995,15 +995,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/33/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/33/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/34/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/34/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1011,7 +1011,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/34/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/34/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1020,7 +1020,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/34/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/34/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1028,15 +1028,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/34/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/34/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/35/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/35/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1044,7 +1044,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/35/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/35/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1053,7 +1053,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/35/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/35/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1061,15 +1061,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/35/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/35/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/36/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/36/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1077,7 +1077,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/36/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/36/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1086,7 +1086,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/36/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/36/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1094,15 +1094,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/36/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/36/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/37/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/37/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1110,7 +1110,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/37/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/37/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1119,7 +1119,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/37/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/37/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1127,15 +1127,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/37/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/37/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/38/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/38/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1143,7 +1143,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/38/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/38/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1152,7 +1152,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/38/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/38/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1160,15 +1160,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/38/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/38/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/39/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/39/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1176,7 +1176,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/39/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/39/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1185,7 +1185,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/39/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/39/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1193,15 +1193,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/39/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/39/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/4/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/4/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1209,7 +1209,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/4/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/4/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1218,7 +1218,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/4/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/4/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1226,15 +1226,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/4/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/4/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/40/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/40/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1242,7 +1242,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/40/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/40/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1251,7 +1251,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/40/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/40/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1259,15 +1259,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/40/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/40/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/41/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/41/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1275,7 +1275,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/41/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/41/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1284,7 +1284,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/41/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/41/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1292,15 +1292,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/41/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/41/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/42/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/42/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1308,7 +1308,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/42/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/42/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1317,7 +1317,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/42/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/42/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1325,15 +1325,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/42/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/42/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/43/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/43/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1341,7 +1341,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/43/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/43/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1350,7 +1350,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/43/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/43/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1358,15 +1358,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/43/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/43/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/44/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/44/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1374,7 +1374,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/44/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/44/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1383,7 +1383,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/44/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/44/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1391,15 +1391,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/44/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/44/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/45/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/45/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1407,7 +1407,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/45/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/45/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1416,7 +1416,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/45/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/45/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1424,15 +1424,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/45/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/45/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/46/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/46/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1440,7 +1440,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/46/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/46/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1449,7 +1449,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/46/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/46/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1457,15 +1457,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/46/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/46/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/47/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/47/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1473,7 +1473,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/47/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/47/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1482,7 +1482,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/47/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/47/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1490,15 +1490,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/47/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/47/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/48/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/48/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1506,7 +1506,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/48/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/48/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1515,7 +1515,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/48/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/48/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1523,15 +1523,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/48/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/48/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/49/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/49/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1539,7 +1539,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/49/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/49/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1548,7 +1548,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/49/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/49/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1556,15 +1556,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/49/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/49/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/5/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/5/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1572,7 +1572,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/5/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/5/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1581,7 +1581,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/5/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/5/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1589,15 +1589,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/5/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/5/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/50/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/50/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1605,7 +1605,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/50/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/50/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1614,7 +1614,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/50/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/50/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1622,15 +1622,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/50/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/50/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/51/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/51/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1638,7 +1638,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/51/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/51/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1647,7 +1647,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/51/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/51/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1655,15 +1655,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/51/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/51/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/52/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/52/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1671,7 +1671,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/52/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/52/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1680,7 +1680,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/52/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/52/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1688,15 +1688,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/52/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/52/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/53/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/53/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1704,7 +1704,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/53/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/53/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1713,7 +1713,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/53/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/53/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1721,15 +1721,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/53/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/53/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/54/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/54/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1737,7 +1737,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/54/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/54/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1746,7 +1746,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/54/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/54/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1754,15 +1754,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/54/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/54/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/55/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/55/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1770,7 +1770,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/55/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/55/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1779,7 +1779,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/55/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/55/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1787,15 +1787,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/55/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/55/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/56/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/56/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1803,7 +1803,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/56/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/56/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1812,7 +1812,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/56/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/56/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1820,15 +1820,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/56/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/56/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/57/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/57/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1836,7 +1836,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/57/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/57/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1845,7 +1845,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/57/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/57/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1853,15 +1853,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/57/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/57/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/58/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/58/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1869,7 +1869,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/58/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/58/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1878,7 +1878,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/58/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/58/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1886,15 +1886,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/58/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/58/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/59/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/59/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1902,7 +1902,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/59/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/59/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1911,7 +1911,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/59/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/59/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1919,15 +1919,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/59/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/59/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/6/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/6/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1935,7 +1935,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/6/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/6/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1944,7 +1944,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/6/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/6/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1952,15 +1952,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/6/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/6/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/60/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/60/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1968,7 +1968,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/60/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/60/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -1977,7 +1977,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/60/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/60/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -1985,15 +1985,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/60/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/60/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/61/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/61/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2001,7 +2001,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/61/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/61/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2010,7 +2010,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/61/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/61/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2018,15 +2018,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/61/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/61/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/62/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/62/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2034,7 +2034,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/62/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/62/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2043,7 +2043,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/62/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/62/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2051,15 +2051,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/62/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/62/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/63/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/63/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2067,7 +2067,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/63/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/63/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2076,7 +2076,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/63/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/63/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2084,15 +2084,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/63/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/63/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/64/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/64/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2100,7 +2100,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/64/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/64/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2109,7 +2109,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/64/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/64/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2117,15 +2117,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/64/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/64/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/65/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/65/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2133,7 +2133,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/65/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/65/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2142,7 +2142,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/65/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/65/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2150,15 +2150,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/65/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/65/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/66/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/66/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2166,7 +2166,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/66/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/66/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2175,7 +2175,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/66/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/66/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2183,15 +2183,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/66/Voltage Measurement/Discrete Fourier/Discrete  Mean value2"
-      "/In"
+      FullBlockPath	      "KambahModel/Distribution Network/66/Voltage Measurement/Discrete Fourier/Discrete  Mean val"
+      "ue2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/7/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/7/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2199,7 +2199,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/7/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/7/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2208,7 +2208,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/7/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/7/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2216,15 +2216,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/7/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/7/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/8/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/8/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2232,7 +2232,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/8/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/8/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2241,7 +2241,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/8/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/8/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2249,15 +2249,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/8/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/8/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/9/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/9/Voltage Measurement/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2265,7 +2265,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/9/Voltage Measurement/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/9/Voltage Measurement/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2274,7 +2274,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/9/Voltage Measurement/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/9/Voltage Measurement/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2282,15 +2282,15 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "In"
-      FullBlockPath	      "CBRModel/Distribution Network/9/Voltage Measurement/Discrete Fourier/Discrete  Mean value2/"
-      "In"
+      FullBlockPath	      "KambahModel/Distribution Network/9/Voltage Measurement/Discrete Fourier/Discrete  Mean valu"
+      "e2/In"
       LogSignal		      1
       MaxPoints		      5000
       Decimation	      2
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Neutral/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Neutral/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2298,7 +2298,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Neutral/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Neutral/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2307,7 +2307,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Neutral/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Neutral/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2315,7 +2315,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase A/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase A/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2323,7 +2323,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase A/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase A/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2332,7 +2332,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase A/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase A/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2340,7 +2340,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase B/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase B/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2348,7 +2348,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase B/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase B/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2357,7 +2357,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase B/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase B/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2365,7 +2365,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase C/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase C/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2373,7 +2373,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase C/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase C/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2382,7 +2382,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/Voltage Phase C/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/Voltage Phase C/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2390,7 +2390,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2398,7 +2398,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2407,7 +2407,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2415,7 +2415,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2423,7 +2423,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2432,7 +2432,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2440,7 +2440,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2448,7 +2448,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2457,7 +2457,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_01/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_01/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2465,7 +2465,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2473,7 +2473,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2482,7 +2482,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2490,7 +2490,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2498,7 +2498,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2507,7 +2507,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2515,7 +2515,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2523,7 +2523,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2532,7 +2532,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_04/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_04/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2540,7 +2540,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2548,7 +2548,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2557,7 +2557,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2565,7 +2565,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2573,7 +2573,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2582,7 +2582,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2590,7 +2590,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2598,7 +2598,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2607,7 +2607,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_12/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_12/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2615,7 +2615,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2623,7 +2623,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2632,7 +2632,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2640,7 +2640,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2648,7 +2648,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2657,7 +2657,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2665,7 +2665,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2673,7 +2673,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2682,7 +2682,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_23/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_23/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2690,7 +2690,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2698,7 +2698,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2707,7 +2707,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2715,7 +2715,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2723,7 +2723,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2732,7 +2732,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2740,7 +2740,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2748,7 +2748,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2757,7 +2757,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_30/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_30/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2765,7 +2765,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2773,7 +2773,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2782,7 +2782,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2790,7 +2790,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2798,7 +2798,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2807,7 +2807,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2815,7 +2815,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2823,7 +2823,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2832,7 +2832,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_31/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_31/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2840,7 +2840,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2848,7 +2848,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2857,7 +2857,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2865,7 +2865,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2873,7 +2873,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2882,7 +2882,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2890,7 +2890,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2898,7 +2898,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2907,7 +2907,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_32/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_32/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2915,7 +2915,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2923,7 +2923,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2932,7 +2932,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2940,7 +2940,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2948,7 +2948,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2957,7 +2957,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2965,7 +2965,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2973,7 +2973,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -2982,7 +2982,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_33/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_33/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2990,7 +2990,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -2998,7 +2998,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3007,7 +3007,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3015,7 +3015,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3023,7 +3023,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3032,7 +3032,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3040,7 +3040,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3048,7 +3048,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3057,7 +3057,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_34/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_34/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3065,7 +3065,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3073,7 +3073,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3082,7 +3082,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3090,7 +3090,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3098,7 +3098,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3107,7 +3107,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3115,7 +3115,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3123,7 +3123,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3132,7 +3132,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_35/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_35/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3140,7 +3140,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3148,7 +3148,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3157,7 +3157,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3165,7 +3165,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3173,7 +3173,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3182,7 +3182,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3190,7 +3190,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3198,7 +3198,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3207,7 +3207,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_45/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_45/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3215,7 +3215,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3223,7 +3223,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3232,7 +3232,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3240,7 +3240,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3248,7 +3248,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3257,7 +3257,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3265,7 +3265,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3273,7 +3273,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3282,7 +3282,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_56/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_56/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3290,7 +3290,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_AB/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3298,7 +3298,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_AB/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_AB/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3307,7 +3307,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_AB/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_AB/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3315,7 +3315,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_BC/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3323,7 +3323,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_BC/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_BC/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3332,7 +3332,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_BC/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_BC/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3340,7 +3340,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_CA/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3348,7 +3348,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_CA/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_CA/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3357,7 +3357,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Distribution Network/z_60/Voltage_CA/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Distribution Network/z_60/Voltage_CA/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3365,7 +3365,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Voltage Neutral/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Neutral/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3373,7 +3373,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Voltage Neutral/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Neutral/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3382,7 +3382,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Voltage Neutral/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Voltage Neutral/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3390,7 +3390,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Voltage Phase A/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Phase A/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3398,7 +3398,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Voltage Phase A/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Phase A/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3407,7 +3407,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Voltage Phase A/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Voltage Phase A/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3415,7 +3415,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Voltage Phase B/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Phase B/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3423,7 +3423,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Voltage Phase B/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Phase B/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3432,7 +3432,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Voltage Phase B/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Voltage Phase B/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3440,7 +3440,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF1"
-      FullBlockPath	      "CBRModel/Voltage Phase C/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Phase C/Discrete Fourier"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3448,7 +3448,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "DF2"
-      FullBlockPath	      "CBRModel/Voltage Phase C/Discrete Fourier"
+      FullBlockPath	      "KambahModel/Voltage Phase C/Discrete Fourier"
       PortIndex		      2
       LogSignal		      1
       LimitDataPoints	      1
@@ -3457,7 +3457,7 @@ Model {
     }
     TestPointedSignal {
       SignalName	      "RMS1"
-      FullBlockPath	      "CBRModel/Voltage Phase C/RMS (discrete)"
+      FullBlockPath	      "KambahModel/Voltage Phase C/RMS (discrete)"
       LogSignal		      1
       LimitDataPoints	      1
       MaxPoints		      5000
@@ -3476,577 +3476,577 @@ Model {
     NumExternalFileReferences 96
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Current Measurement"
-      Path		      "CBRModel/Current Neutral"
+      Path		      "KambahModel/Current Neutral"
       SID		      "1215"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Current Measurement"
-      Path		      "CBRModel/Current Phase A"
+      Path		      "KambahModel/Current Phase A"
       SID		      "1212"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Current Measurement"
-      Path		      "CBRModel/Current Phase B"
+      Path		      "KambahModel/Current Phase B"
       SID		      "1213"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Current Measurement"
-      Path		      "CBRModel/Current Phase C"
+      Path		      "KambahModel/Current Phase C"
       SID		      "1214"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "powerlib/Elements/Three-Phase\nTransformer\n(Two Windings)"
-      Path		      "CBRModel/Distribution Transformer"
+      Path		      "KambahModel/Distribution Transformer"
       SID		      "60"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/1"
+      Path		      "KambahModel/Distribution Network/1"
       SID		      "2523"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/10"
+      Path		      "KambahModel/Distribution Network/10"
       SID		      "2595"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/11"
+      Path		      "KambahModel/Distribution Network/11"
       SID		      "2571"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/12"
+      Path		      "KambahModel/Distribution Network/12"
       SID		      "2572"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/13"
+      Path		      "KambahModel/Distribution Network/13"
       SID		      "2573"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/14"
+      Path		      "KambahModel/Distribution Network/14"
       SID		      "2574"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/15"
+      Path		      "KambahModel/Distribution Network/15"
       SID		      "2575"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/16"
+      Path		      "KambahModel/Distribution Network/16"
       SID		      "2578"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/17"
+      Path		      "KambahModel/Distribution Network/17"
       SID		      "2579"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/18"
+      Path		      "KambahModel/Distribution Network/18"
       SID		      "2580"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/19"
+      Path		      "KambahModel/Distribution Network/19"
       SID		      "2581"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/2"
+      Path		      "KambahModel/Distribution Network/2"
       SID		      "2576"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/20"
+      Path		      "KambahModel/Distribution Network/20"
       SID		      "2585"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/21"
+      Path		      "KambahModel/Distribution Network/21"
       SID		      "2586"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/22"
+      Path		      "KambahModel/Distribution Network/22"
       SID		      "2587"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/23"
+      Path		      "KambahModel/Distribution Network/23"
       SID		      "2589"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/24"
+      Path		      "KambahModel/Distribution Network/24"
       SID		      "2590"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/25"
+      Path		      "KambahModel/Distribution Network/25"
       SID		      "2591"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/26"
+      Path		      "KambahModel/Distribution Network/26"
       SID		      "2592"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/27"
+      Path		      "KambahModel/Distribution Network/27"
       SID		      "2593"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/28"
+      Path		      "KambahModel/Distribution Network/28"
       SID		      "2596"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/29"
+      Path		      "KambahModel/Distribution Network/29"
       SID		      "2597"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/3"
+      Path		      "KambahModel/Distribution Network/3"
       SID		      "2577"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/30"
+      Path		      "KambahModel/Distribution Network/30"
       SID		      "2598"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/31"
+      Path		      "KambahModel/Distribution Network/31"
       SID		      "2599"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/32"
+      Path		      "KambahModel/Distribution Network/32"
       SID		      "2601"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/33"
+      Path		      "KambahModel/Distribution Network/33"
       SID		      "2602"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/34"
+      Path		      "KambahModel/Distribution Network/34"
       SID		      "2603"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/35"
+      Path		      "KambahModel/Distribution Network/35"
       SID		      "2604"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/36"
+      Path		      "KambahModel/Distribution Network/36"
       SID		      "2605"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/37"
+      Path		      "KambahModel/Distribution Network/37"
       SID		      "2606"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/38"
+      Path		      "KambahModel/Distribution Network/38"
       SID		      "2607"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/39"
+      Path		      "KambahModel/Distribution Network/39"
       SID		      "2608"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/4"
+      Path		      "KambahModel/Distribution Network/4"
       SID		      "2588"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/40"
+      Path		      "KambahModel/Distribution Network/40"
       SID		      "2609"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/41"
+      Path		      "KambahModel/Distribution Network/41"
       SID		      "2610"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/42"
+      Path		      "KambahModel/Distribution Network/42"
       SID		      "2611"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/43"
+      Path		      "KambahModel/Distribution Network/43"
       SID		      "2613"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/44"
+      Path		      "KambahModel/Distribution Network/44"
       SID		      "2614"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/45"
+      Path		      "KambahModel/Distribution Network/45"
       SID		      "2615"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/46"
+      Path		      "KambahModel/Distribution Network/46"
       SID		      "2616"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/47"
+      Path		      "KambahModel/Distribution Network/47"
       SID		      "2617"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/48"
+      Path		      "KambahModel/Distribution Network/48"
       SID		      "2618"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/49"
+      Path		      "KambahModel/Distribution Network/49"
       SID		      "2620"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/5"
+      Path		      "KambahModel/Distribution Network/5"
       SID		      "2594"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/50"
+      Path		      "KambahModel/Distribution Network/50"
       SID		      "2621"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/51"
+      Path		      "KambahModel/Distribution Network/51"
       SID		      "2622"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/52"
+      Path		      "KambahModel/Distribution Network/52"
       SID		      "2623"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/53"
+      Path		      "KambahModel/Distribution Network/53"
       SID		      "2624"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/54"
+      Path		      "KambahModel/Distribution Network/54"
       SID		      "2625"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/55"
+      Path		      "KambahModel/Distribution Network/55"
       SID		      "2627"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/56"
+      Path		      "KambahModel/Distribution Network/56"
       SID		      "2628"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/57"
+      Path		      "KambahModel/Distribution Network/57"
       SID		      "2629"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/58"
+      Path		      "KambahModel/Distribution Network/58"
       SID		      "2630"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/59"
+      Path		      "KambahModel/Distribution Network/59"
       SID		      "2631"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/6"
+      Path		      "KambahModel/Distribution Network/6"
       SID		      "2600"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/60"
+      Path		      "KambahModel/Distribution Network/60"
       SID		      "2632"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/61"
+      Path		      "KambahModel/Distribution Network/61"
       SID		      "2634"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/62"
+      Path		      "KambahModel/Distribution Network/62"
       SID		      "2635"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/63"
+      Path		      "KambahModel/Distribution Network/63"
       SID		      "2636"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/64"
+      Path		      "KambahModel/Distribution Network/64"
       SID		      "2637"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/65"
+      Path		      "KambahModel/Distribution Network/65"
       SID		      "2638"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/66"
+      Path		      "KambahModel/Distribution Network/66"
       SID		      "2639"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/7"
+      Path		      "KambahModel/Distribution Network/7"
       SID		      "2582"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/8"
+      Path		      "KambahModel/Distribution Network/8"
       SID		      "2583"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Individual House"
-      Path		      "CBRModel/Distribution Network/9"
+      Path		      "KambahModel/Distribution Network/9"
       SID		      "2584"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "powerlib/Elements/Ground"
-      Path		      "CBRModel/Distribution Network/Ground"
+      Path		      "KambahModel/Distribution Network/Ground"
       SID		      "2559"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Distribution Network/Voltage Neutral"
+      Path		      "KambahModel/Distribution Network/Voltage Neutral"
       SID		      "2560"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Distribution Network/Voltage Phase A"
+      Path		      "KambahModel/Distribution Network/Voltage Phase A"
       SID		      "2561"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Distribution Network/Voltage Phase B"
+      Path		      "KambahModel/Distribution Network/Voltage Phase B"
       SID		      "2562"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Distribution Network/Voltage Phase C"
+      Path		      "KambahModel/Distribution Network/Voltage Phase C"
       SID		      "2563"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_01"
+      Path		      "KambahModel/Distribution Network/z_01"
       SID		      "2324"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_04"
+      Path		      "KambahModel/Distribution Network/z_04"
       SID		      "2527"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_12"
+      Path		      "KambahModel/Distribution Network/z_12"
       SID		      "2558"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_23"
+      Path		      "KambahModel/Distribution Network/z_23"
       SID		      "2525"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_30"
+      Path		      "KambahModel/Distribution Network/z_30"
       SID		      "2534"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_31"
+      Path		      "KambahModel/Distribution Network/z_31"
       SID		      "2612"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_32"
+      Path		      "KambahModel/Distribution Network/z_32"
       SID		      "2619"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_33"
+      Path		      "KambahModel/Distribution Network/z_33"
       SID		      "2626"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_34"
+      Path		      "KambahModel/Distribution Network/z_34"
       SID		      "2633"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_35"
+      Path		      "KambahModel/Distribution Network/z_35"
       SID		      "2640"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_45"
+      Path		      "KambahModel/Distribution Network/z_45"
       SID		      "2528"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_56"
+      Path		      "KambahModel/Distribution Network/z_56"
       SID		      "2532"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Backbone"
-      Path		      "CBRModel/Distribution Network/z_60"
+      Path		      "KambahModel/Distribution Network/z_60"
       SID		      "2537"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "powerlib/Elements/Ground"
-      Path		      "CBRModel/Ground"
+      Path		      "KambahModel/Ground"
       SID		      "2518"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "powerlib/Electrical\nSources/Three-Phase Source"
-      Path		      "CBRModel/Three-Phase Source"
+      Path		      "KambahModel/Three-Phase Source"
       SID		      "11"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Voltage Neutral"
+      Path		      "KambahModel/Voltage Neutral"
       SID		      "1219"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Voltage Phase A"
+      Path		      "KambahModel/Voltage Phase A"
       SID		      "1216"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Voltage Phase B"
+      Path		      "KambahModel/Voltage Phase B"
       SID		      "1217"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "ExampleModel_lib/Voltage Measurement"
-      Path		      "CBRModel/Voltage Phase C"
+      Path		      "KambahModel/Voltage Phase C"
       SID		      "1218"
       Type		      "LIBRARY_BLOCK"
     }
     ExternalFileReference {
       Reference		      "powerlib/powergui"
-      Path		      "CBRModel/powergui"
+      Path		      "KambahModel/powergui"
       SID		      "30"
       Type		      "LIBRARY_BLOCK"
     }
@@ -4105,23 +4105,23 @@ Model {
 	  $ObjectID		  5
 	  IsActive		  [1]
 	  IsTabbed		  [1]
-	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "1230"
-	  Extents		  [2450.0, 1172.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [-128.05489472008571, -410.79938102347114]
-	  SceneRectInView	  [-128.05489472008571, -410.79938102347114, 2450.0, 1172.0]
-	}
-	Object {
-	  $ObjectID		  6
-	  IsActive		  [0]
-	  IsTabbed		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [2450.0, 1172.0]
 	  ZoomFactor		  [2.0]
 	  Offset		  [-246.39231472452383, -53.618385340484565]
 	  SceneRectInView	  [-246.39231472452383, -53.618385340484565, 1225.0, 586.0]
+	}
+	Object {
+	  $ObjectID		  6
+	  IsActive		  [0]
+	  IsTabbed		  [0]
+	  ViewObjType		  "SimulinkSubsys"
+	  LoadSaveID		  "1230"
+	  Extents		  [2450.0, 1172.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [-128.05489472008571, -410.79938102347114]
+	  SceneRectInView	  [-128.05489472008571, -410.79938102347114, 2450.0, 1172.0]
 	}
 	Object {
 	  $ObjectID		  7
@@ -4383,19 +4383,6 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  30
-	  Type			  "Simulink:Editor:ReferencedFiles"
-	  ID			  "Referenced Files"
-	  Visible		  [0]
-	  CreateCallback	  ""
-	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
-	  Floating		  [0]
-	  DockPosition		  "Left"
-	  Width			  [640]
-	  Height		  [480]
-	  Minimized		  "Unset"
-	}
-	Object {
-	  $ObjectID		  31
 	  Type			  "GLUE2:PropertyInspector"
 	  ID			  "Property Inspector"
 	  Visible		  [0]
@@ -4403,6 +4390,19 @@ Model {
 	  UserData		  ""
 	  Floating		  [0]
 	  DockPosition		  "Right"
+	  Width			  [640]
+	  Height		  [480]
+	  Minimized		  "Unset"
+	}
+	Object {
+	  $ObjectID		  31
+	  Type			  "Simulink:Editor:ReferencedFiles"
+	  ID			  "Referenced Files"
+	  Visible		  [0]
+	  CreateCallback	  ""
+	  UserData		  "{\"filterShowRefModels\":\"true\",\"filterShowRefSubs\":\"true\",\"filterShowOnlyDirtyFiles\":\"false\"}\n"
+	  Floating		  [0]
+	  DockPosition		  "Left"
 	  Width			  [640]
 	  Height		  [480]
 	  Minimized		  "Unset"
@@ -4423,7 +4423,7 @@ Model {
       }
       WindowUuid	      "a7083902-4910-4b0e-868a-2d1156cd6bdc"
     }
-    BDUuid		    "843cd151-ba7f-4c2b-9bb6-b0d879f7d068"
+    BDUuid		    "5a02669d-7270-451a-9c74-151b2dea89c8"
   }
   HideAutomaticNames	  on
   SequenceViewerTimePrecision 3
@@ -4437,7 +4437,7 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "albert"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Mon Oct 05 23:20:54 2020"
+  LastModifiedDate	  "Mon Oct 05 23:48:03 2020"
   RTWModifiedTimeStamp	  523840852
   ModelVersionFormat	  "%<AutoIncrement:19.12>"
   SampleTimeColors	  off
@@ -4498,12 +4498,12 @@ Model {
     $PropName		    "DataLoggingOverride"
     $ObjectID		    32
     $ClassName		    "Simulink.SimulationData.ModelLoggingInfo"
-    model_		    "CBRModel"
+    model_		    "KambahModel"
     overrideMode_	    [0.0]
     Array {
       Type		      "Cell"
       Dimension		      1
-      Cell		      "CBRModel"
+      Cell		      "KambahModel"
       PropName		      "logAsSpecifiedByModels_"
     }
     Array {
@@ -15321,35 +15321,35 @@ Model {
 	    MECH.SimMechanicsCC {
 	      $ObjectID		      47
 	      Version		      "20.1.0"
-	      Name		      "SimMechanics"
+	      Name		      SimMechanics
 	      WarnOnRedundantConstraints on
 	      WarnOnSingularInitialAssembly off
 	      ShowCutJoints	      off
 	      VisOnUpdateDiagram      off
 	      VisDuringSimulation     off
 	      EnableVisSimulationTime on
-	      VisSampleTime	      "0"
+	      VisSampleTime	      0
 	      DisableBodyVisControl   off
 	      ShowCG		      on
 	      ShowCS		      on
 	      ShowOnlyPortCS	      off
 	      HighlightModel	      on
-	      FramesToBeSkipped	      "0"
-	      AnimationDelay	      "3"
+	      FramesToBeSkipped	      0
+	      AnimationDelay	      3
 	      RecordAVI		      off
 	      CompressAVI	      on
-	      AutoFitVis	      "off"
+	      AutoFitVis	      off
 	      EnableSelection	      on
-	      LastVizWinPosition      "[-1 -1 -1 -1]"
-	      CamPosition	      "[0 0 0]"
-	      CamTarget		      "[0 0 -1]"
-	      CamUpVector	      "[0 1 0]"
-	      CamHeight		      "-1"
-	      CamViewAngle	      "0"
-	      VisBackgroundColor      "[0.9 0.9 0.95]"
-	      DefaultBodyColor	      "[1 0 0]"
+	      LastVizWinPosition      [-1 -1 -1 -1]
+	      CamPosition	      [0 0 0]
+	      CamTarget		      [0 0 -1]
+	      CamUpVector	      [0 1 0]
+	      CamHeight		      -1
+	      CamViewAngle	      0
+	      VisBackgroundColor      [0.9 0.9 0.95]
+	      DefaultBodyColor	      [1 0 0]
 	      MDLBodyVisualizationType "Convex hull from body CS locations"
-	      OVRRIDBodyVisualizationType "NONE"
+	      OVRRIDBodyVisualizationType NONE
 	    }
 	    PropName		    "Components"
 	  }
@@ -15505,10 +15505,10 @@ Model {
     }
   }
   System {
-    Name		    "CBRModel"
+    Name		    "KambahModel"
     Location		    [72, 27, 2560, 1440]
     SystemRect		    [0.000000, 0.000000, 0.000000, 0.000000]
-    Open		    off
+    Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
     ExecutionDomainType	    "Deduce"
@@ -15705,7 +15705,7 @@ Model {
 	Name			"Distribution Network"
 	Location		[72, 27, 2560, 1440]
 	SystemRect		[0.000000, 0.000000, 0.000000, 0.000000]
-	Open			on
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
