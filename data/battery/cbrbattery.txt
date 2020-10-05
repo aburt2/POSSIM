@@ -1,11 +1,11 @@
-Range 500
+Range 390
 ChargingEfficiency 0.9
-NumParallelCells 2
-NumSeriesBlocks 96
-CapacityCell 33.1
+NumParallelCells 3
+NumSeriesBlocks 98
+CapacityCell 180
 CapacitySafeRangeUpper 0.9
 CapacitySafeRangeLower 0.1
-VoltageNominalCell 3.75
+VoltageNominalCell 3.7
 ResistanceInternalCell 0.01
 VoltageMaximum 4.2
 SOC, Voltage
