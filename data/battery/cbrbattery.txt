@@ -2,7 +2,7 @@ Range 390
 ChargingEfficiency 0.9
 NumParallelCells 3
 NumSeriesBlocks 98
-CapacityCell 180
+CapacityCell 60
 CapacitySafeRangeUpper 0.9
 CapacitySafeRangeLower 0.1
 VoltageNominalCell 3.7

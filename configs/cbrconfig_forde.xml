@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<configfile         flag="C"    value="configs/cbrconfig.xml" />
+
+<simulationinterval flag="i"    value="30" />
+
+<starttime          flag="s"    value="00.00.19.08.2019" />           
+<finishtime         flag="f"    value="00.00.20.08.2019" />    
+
+<intervaldelay      flag="d"    value="0" />
+<showdebug          flag="D"    value="yes" />
+<generatereport     flag="g"    value="yes" />
+
+<demanddatadir      flag="f_de" value="data/cbr_demand/generic/cbr_weekday_generic.csv" />
+<demandmodel        flag="M"    value="generic" />
+<housedemandalloc   flag="hda"  value="x.csv" />
+<demandrandom_int   flag="dri"  value="0,0,0,0" />
+
+<evpenetration      flag="p"    value="48" />
+<trafficdata        flag="f_td" value="data/traffic/fordetraffic.csv" />
+<trafficmodel       flag="ta"   value="random" />
+<trafficmodelfile   flag="f_ta" value="data/traffic/exampletrafficmodelfile.csv" />
+
+<chargerateupdate   flag="cru"  value="batch" />
+<chargerategroupsize flag="crg" value="0" />
+<chargerateorder    flag="cro"  value="ordered" />
+
+<vehicleassignment  flag="f_ve" value="random" />
+<vehiclechargedata  flag="f_vc" value="" />
+
+<batterystart       flag="S"    value="160" />
+<batteryrandom      flag="S_r"  value="0,10,-25,25" />
+<batterycapacity    flag="b"    value="180" />
+<batterydata        flag="f_ba" value="data/battery/cbrbattery.txt" />
+
+<spotpricedata      flag="f_sp" value="data/spotprice/AEMO/" />
+
+<loadflowsimulator  flag="l"    value="matlab" />
+<modelpath          flag="m"    value="matlab/FordeModel.mdl" />
+<modellibpath       flag="ml"   value="matlab/ExampleModel_lib.mdl" />
+
+<frequency          flag="f"    value="50" />
+<txcapacity         flag="t"    value="315000" />
+<powerfactor        flag="P"    value="0.95" />
+<txvoltage          flag="V_tx" value="415" />
+<basevoltage        flag="V_b"  value="400" />
+
+<chargingalgorithm  flag="c"    value="uncontrolled" />
+<maxchargerate      flag="c_mx" value="7400" />
+<minchargerate      flag="c_mn" value="0" />
+
+<charginghorizon    flag="c_h"  value="30" />
+<loadscheduleperiod flag="L"    value="30" />
+
+<matlaboptalg       flag="moa"  value="interior-point" />
+<servicelinemax     flag="c_s"  value="100" />
+<backbonemax        flag="c_b"  value="400" />
+<minvoltage         flag="V_mn" value="218" />

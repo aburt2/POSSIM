@@ -38,8 +38,10 @@ POSSIBILITY OF SUCH DAMAGE.
 // Constructor:  open config file, read all values.
 Config::Config() {
     // Input from default xml file
-    inputXML("configs/cbrconfig.xml");
+    //inputXML("configs/cbrconfig.xml");
     //inputXML("configs/defaultconfig.xml");
+    inputXML("configs/cbrconfig_distributed.xml");
+    //inputXML("configs/cbrconfig_equalshares.xml");
     
     // Ensure right values for particular variables
     correctValues();

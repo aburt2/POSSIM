@@ -16,8 +16,8 @@
 <housedemandalloc   flag="hda"  value="x.csv" />
 <demandrandom_int   flag="dri"  value="0,0,0,0" />
 
-<evpenetration      flag="p"    value="6" />
-<trafficdata        flag="f_td" value="data/traffic/cbrtraffic.csv" />
+<evpenetration      flag="p"    value="2" />
+<trafficdata        flag="f_td" value="data/traffic/fordetraffic.csv" />
 <trafficmodel       flag="ta"   value="random" />
 <trafficmodelfile   flag="f_ta" value="data/traffic/exampletrafficmodelfile.csv" />
 
@@ -28,15 +28,15 @@
 <vehicleassignment  flag="f_ve" value="random" />
 <vehiclechargedata  flag="f_vc" value="" />
 
-<batterystart       flag="S"    value="33" />
-<batteryrandom      flag="S_r"  value="0,7,-12,12" />
-<batterycapacity    flag="b"    value="66" />
+<batterystart       flag="S"    value="160" />
+<batteryrandom      flag="S_r"  value="0,10,-25,25" />
+<batterycapacity    flag="b"    value="180" />
 <batterydata        flag="f_ba" value="data/battery/cbrbattery.txt" />
 
 <spotpricedata      flag="f_sp" value="data/spotprice/AEMO/" />
 
 <loadflowsimulator  flag="l"    value="matlab" />
-<modelpath          flag="m"    value="matlab/FordeModel.mld" />
+<modelpath          flag="m"    value="matlab/KambahModel.mdl" />
 <modellibpath       flag="ml"   value="matlab/ExampleModel_lib.mdl" />
 
 <frequency          flag="f"    value="50" />
