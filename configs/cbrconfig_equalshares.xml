@@ -16,8 +16,8 @@
 <housedemandalloc   flag="hda"  value="x.csv" />
 <demandrandom_int   flag="dri"  value="0,0,0,0" />
 
-<evpenetration      flag="p"    value="2" />
-<trafficdata        flag="f_td" value="data/traffic/fordetraffic.csv" />
+<evpenetration      flag="p"    value="82" />
+<trafficdata        flag="f_td" value="data/traffic/kambahtraffic.csv" />
 <trafficmodel       flag="ta"   value="random" />
 <trafficmodelfile   flag="f_ta" value="data/traffic/exampletrafficmodelfile.csv" />
 
